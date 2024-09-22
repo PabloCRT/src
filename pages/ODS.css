@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espaco{
+    height: 40px;
+    background-color: rgb(23, 23, 23);;
+}
+
+p, h1, h3, h6{
+    padding-left: 80px;
+}
+
+nav{
+    background-color: rgb(26, 26, 26);
+    height: 73px;
+
+    & ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 14px;
+
+        & li{
+            padding-top: 15px;
+        }
+    }
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header img{
+    width: 180px;
+    height: 230px;
+    border-radius: 50%;
+}
+
+.center{
+    text-align: center;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer p{
+    padding-top: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+}
+
+.centroRedeSocial p{
+        padding-right: +78px;
+}
+
+footer a{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/*  */
+
+a:hover{
+    color: #F5D276;
+}
+
+section p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 50px;
+}
+
+h3{
+    width: 500px;
+    margin-top: 20px;
+}
+
+h3:hover{
+    color: #F5D276;
+}
+
+h1{
+    color: #8829A3;
+}
+
+h6{
+    color: #8829A3;
+}
+
+/* Integrantes */
+
+.integrantes{
+    background-color: rgb(23, 23, 23);
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.justificado{
+    display: block;
+}
+
+.justificado li{
+    list-style-type: none;
+    
+}
+
+.funcao{
+    display: flex;
+    justify-content: center;
+}
+
+.funcao{
+    justify-content: space-between;
+}
+
+.programadores{
+    padding-right: 20px;
+    border-left: rgb(71, 71, 71) solid 3px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+}
+
+.merito{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+}
+
+.organizacao{
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+}
+
+.Tec{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+}
+
+.Ment{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+}
+
+h2{
+    text-align: center;
+}
+
+.textoODS{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.siteODS{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.ods{
+    text-align: center;
+
+    & img{
+        height: 200px;
+    }
+}
+
+.recurso6{
+    text-align: center;
+
+    & img{
+        height: 200px;
+    }
+}
