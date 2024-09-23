@@ -165,11 +165,7 @@
   }
 
   #primeiraImagem {
-    width: 160px;
-    max-height: 200px;
-    border: #f5d276 solid 1px;
-    border-radius: 15px;
-    margin-left: 10px;
+    display: none;
   }
   #segundaImagem {
     height: 150px;
@@ -184,15 +180,12 @@
 
     & .slideEdit2 {
       height: 80pxpx;
+      text-align: center;
     }
 
     & .slideEdit {
-      height: 150px;
+      display: none;
     }
-  }
-
-  .img1 {
-    height: 150px;
   }
 
   .trocar {
