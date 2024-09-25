@@ -111,6 +111,7 @@
 
   .justificado {
     display: block;
+    scale: 0.7;
   }
 
   .justificado li {
@@ -121,7 +122,6 @@
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    scale: 0.7;
   }
 
   .programadores {
