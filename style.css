@@ -4,6 +4,12 @@
 }
 
 @media (max-width: 400px) {
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+
   body {
     color: white;
     background-color: black;
@@ -111,7 +117,7 @@
 
   .justificado {
     display: block;
-    scale: 0.7;
+    scale: 0.6;
   }
 
   .justificado li {
