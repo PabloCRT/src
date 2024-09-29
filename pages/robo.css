@@ -1,214 +1,706 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
-@media (max-width: 400px) {
+@media (max-width: 400px){
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
   body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
-
+  
   p,
   h1,
   h3 {
-    padding-left: 10px;
+    padding-left: 80px;
   }
 
+  .texto1{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 500px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto2{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 330px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto3{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 200px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+  
   nav {
     background-color: rgb(26, 26, 26);
-    height: 7%;
+    height: 73px;
 
+    position: sticky;
+    top: 0;
+  
     & ul {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
       align-items: center;
       padding: 14px;
-
+      overflow: hidden;
+  
       & li {
         padding-top: 15px;
       }
     }
   }
-
+  
   a {
     color: white;
     text-decoration: none;
   }
-
+  
   header img {
     height: 30%;
     border-radius: 50%;
   }
-
+  
   .center {
     text-align: center;
   }
-
+  
   footer img {
-    height: 20.25px;
+    width: 40px;
+    height: 40px;
   }
-
+  
   footer p {
     padding-top: 10px;
   }
-
+  
   footer {
     display: flex;
     justify-content: center;
     padding-bottom: 0;
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
-
+  
   .centroRedeSocial p {
-    text-align: center;
+    padding-right: +78px;
   }
-
+  
   footer a {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
   }
-
+  
   /*  */
-
+  
   a:hover {
     color: #f5d276;
   }
-
+  
   section p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-right: 50px;
   }
-
+  
   h3 {
     width: 500px;
     margin-top: 20px;
   }
-
+  
   h3:hover {
     color: #f5d276;
   }
-
+  
   h1 {
     color: #8829a3;
   }
-
+  
   /* Integrantes */
-
+  
   .integrantes {
     background-color: rgb(23, 23, 23);
     padding-top: 50px;
     margin-top: 100px;
     padding-bottom: 50px;
-    width: 100%;
     display: flex;
     justify-content: center;
-
-    width: 100%;
   }
-
+  
   .justificado {
     display: block;
+    scale: 100%;
   }
-
+  
   .justificado li {
     list-style-type: none;
   }
-
+  
   .funcao {
     display: flex;
     justify-content: center;
+  }
+  
+  .funcao {
     justify-content: space-between;
   }
-
+  
   .programadores {
     padding-right: 20px;
     border-left: rgb(71, 71, 71) solid 3px;
     padding-left: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
   }
-
+  
   .merito {
     padding-right: 20px;
     padding-left: 20px;
+    padding-left: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
   }
-
+  
   .organizacao {
     padding-right: 20px;
     padding-left: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
   }
-
+  
   .Tec {
     padding-left: 20px;
     padding-right: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
   }
-
+  
   .Ment {
     padding-left: 20px;
     padding-right: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
   }
-
+  
   h2 {
     text-align: center;
   }
 
-  .slide {
+
+}
+
+
+
+
+
+@media (min-width: 400px){
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p,
+  h1,
+  h3 {
+    padding-left: 80px;
+  }
+
+  .texto1{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 500px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto2{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 330px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto3{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 200px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+  
+  nav {
+    background-color: rgb(26, 26, 26);
+    height: 73px;
+
+    position: sticky;
+    top: 0;
+  
+    & ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 14px;
+      overflow: hidden;
+  
+      & li {
+        padding-top: 15px;
+      }
+    }
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header img {
+    height: 30%;
+    border-radius: 50%;
+  }
+  
+  .center {
     text-align: center;
   }
-
-  #primeiraImagem {
-    width: 160px;
-    max-height: 200px;
-    border: #f5d276 solid 1px;
-    border-radius: 15px;
-    margin-left: 10px;
+  
+  footer img {
+    width: 40px;
+    height: 40px;
   }
-  #segundaImagem {
-    height: 150px;
-    border: #f5d276 solid 1px;
-    border-radius: 15px;
-    margin-right: 10px;
+  
+  footer p {
+    padding-top: 10px;
   }
-
-  .tudo {
+  
+  footer {
     display: flex;
     justify-content: center;
-
-    & .slideEdit2 {
-      height: 80pxpx;
-    }
-
-    & .slideEdit {
-      height: 150px;
-    }
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
-
-  .img1 {
-    height: 150px;
+  
+  .centroRedeSocial p {
+    padding-right: +78px;
   }
-
-  .trocar {
-    background-color: transparent;
-    border: none;
+  
+  footer a {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  /*  */
+  
+  a:hover {
     color: #f5d276;
   }
-  .trocar:hover {
-    cursor: pointer;
-    transform: scale(1.1);
+  
+  section p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 50px;
+  }
+  
+  h3 {
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  h3:hover {
+    color: #f5d276;
+  }
+  
+  h1 {
+    color: #8829a3;
+  }
+  
+  /* Integrantes */
+  
+  .integrantes {
+    background-color: rgb(23, 23, 23);
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .justificado {
+    display: block;
+    scale: 0.6;
+  }
+  
+  .justificado li {
+    list-style-type: none;
+  }
+  
+  .funcao {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .funcao {
+    justify-content: space-between;
+  }
+  
+  .programadores {
+    padding-right: 20px;
+    border-left: rgb(71, 71, 71) solid 3px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .merito {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .organizacao {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .Tec {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .Ment {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  h2 {
+    text-align: center;
   }
 
-  .recado {
-    text-align: center;
-    margin-top: 70px;
+
+}
+
+
+
+
+
+@media (min-width: 1300px){
+  * {
+    padding: 0;
+    margin: 0;
   }
+  
+  body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  p,
+  h1,
+  h3 {
+    padding-left: 80px;
+  }
+
+  .texto1{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 500px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto2{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 330px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+
+  .texto3{
+    background-color: rgb(15, 15, 15);
+    border-radius: 20px;
+
+    max-width: 90%;
+
+    margin-left: 5%;
+    height: 200px;
+
+    & p{
+      padding-left: 30px;
+    }
+
+    & h3{
+      padding-top: 25px;
+      padding-left: 30px;
+    }
+  }
+  
+  nav {
+    background-color: rgb(26, 26, 26);
+    height: 73px;
+
+    position: sticky;
+    top: 0;
+  
+    & ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 14px;
+      overflow: hidden;
+  
+      & li {
+        padding-top: 15px;
+      }
+    }
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  header img {
+    height: 30%;
+    border-radius: 50%;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  footer p {
+    padding-top: 10px;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+  }
+  
+  .centroRedeSocial p {
+    padding-right: +78px;
+  }
+  
+  footer a {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  /*  */
+  
+  a:hover {
+    color: #f5d276;
+  }
+  
+  section p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 50px;
+  }
+  
+  h3 {
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  h3:hover {
+    color: #f5d276;
+  }
+  
+  h1 {
+    color: #8829a3;
+  }
+  
+  /* Integrantes */
+  
+  .integrantes {
+    background-color: rgb(23, 23, 23);
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .justificado {
+    display: block;
+    scale: 100%;
+  }
+  
+  .justificado li {
+    list-style-type: none;
+  }
+  
+  .funcao {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .funcao {
+    justify-content: space-between;
+  }
+  
+  .programadores {
+    padding-right: 20px;
+    border-left: rgb(71, 71, 71) solid 3px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .merito {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .organizacao {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .Tec {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  .Ment {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+
+}
+
+
+
+
+/* Site no computador */
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -226,6 +718,9 @@ h3 {
 nav {
   background-color: rgb(26, 26, 26);
   height: 73px;
+
+    position: sticky;
+    top: 0;
 
   & ul {
     display: flex;
