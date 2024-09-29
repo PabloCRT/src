@@ -172,7 +172,7 @@
   
   .justificado {
     display: block;
-    scale: 100%;
+    scale: 0.6;
   }
   
   .justificado li {
