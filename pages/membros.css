@@ -96,3 +96,28 @@ header{
         }
     }
 }
+
+footer img {
+    height: 40px;
+  }
+
+  footer p {
+    padding-top: 10px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+  }
+
+  .centroRedeSocial p {
+    text-align: center;
+  }
+
+  footer a {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
