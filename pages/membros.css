@@ -1,139 +1,300 @@
-*{
-    padding: 0;
-    margin: 0;
-}
+@media (min-width: 1300px){
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: black;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: #f5d276;
-}
-
-nav{
-    height: 73px;
-    background-color: rgb(26, 26, 26);
-
-    position: sticky;
-    top: 0;
+    *{
+        padding: 0;
+        margin: 0;
+    }
     
-
-    & ul {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #f5d276;
+    }
+    
+    nav{
+        height: 73px;
+        background-color: rgb(26, 26, 26);
+    
+        position: sticky;
+        top: 0;
+        
+    
+        & ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 14px;
+        
+            & li {
+              padding-top: 15px;
+            }
+          }
+    }
+    
+    header{
+        text-align: center;
+        height: 500px;
+    
+        & .baner{
+            height: 770px;
+            width: 100%;
+            background-image: url(../assets/banerEquipe.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center top;
+            backface-visibility: hidden;
+            background-attachment: fixed;
+    
+            & h1{
+                font-size: 100px;
+                padding-top: 10%;
+            }
+        }
+    }
+    
+    .caixaIntegrantes{
+        text-align: center;
+        margin-top: 200px;
+    
+        & h1{
+            margin-right: 1%;
+        }
+    }
+    
+    .grupo1, .grupo2, .grupo3{
         display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        align-items: center;
-        padding: 14px;
+        margin-left: 13.6%;
+    }
     
-        & li {
-          padding-top: 15px;
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 450px;
+        background-color: rgb(26, 26, 26);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        max-width: 50%;
+        padding-left: 5px;
+        padding-right: 10px;
+    
+        border-radius: 20px;
+        
+    
+        display: block;
+    
+        & img{
+            height: 180px;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+    
+        & p{
+    
+            margin-top: 10px;
+    
+            & u{
+                
+            }
+        }
+    
+        & a{
+    
+            & img{
+                height: 80px;
+            }
+        }
+    }
+    
+    footer img {
+        height: 40px;
+      }
+    
+      footer p {
+        padding-top: 10px;
+      }
+    
+      footer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+      }
+    
+      .centroRedeSocial p {
+        text-align: center;
+      }
+    
+      footer a {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+    
+
+}
+
+
+
+
+
+@media screen and (max-width: 400px){
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        background-color: black;
+    }
+
+    .container{
+        overflow: hidden;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: #f5d276;
+    }
+    
+    nav {
+        background-color: rgb(26, 26, 26);
+        height: 7%;
+    
+        position: sticky;
+        top: 0;
+    
+        & ul {
+          display: flex;
+          justify-content: center;
+          justify-content: space-between;
+          list-style-type: none;
+          align-items: center;
+          padding: 14px;
+          scale: 0.6;
+          overflow: hidden;
+    
+          & li {
+            padding-top: 15px;
+          }
         }
       }
-}
-
-header{
-    text-align: center;
-    height: 500px;
-
-    & .baner{
-        height: 770px;
-        width: 100%;
-        background-image: url(../assets/banerEquipe.jpg);
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center top;
-        backface-visibility: hidden;
-        background-attachment: fixed;
-
-        & h1{
-            font-size: 100px;
-            padding-top: 10%;
+    
+    header{
+        text-align: center;
+        height: 10px;
+        
+    
+        & .baner{
+            height: 770px;
+            width: 100%;
+            background-image: url(../assets/banerEquipe.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            
+            backface-visibility: hidden;
+            background-attachment: fixed;
+    
+            & h1{
+                font-size: 20px;
+                padding-top: 5%;
+            }
         }
     }
-}
-
-.caixaIntegrantes{
-    text-align: center;
-    margin-top: 200px;
-
-    & h1{
-        margin-right: 1%;
+    
+    .caixaIntegrantes{
+        text-align: center;
+        margin-top: 200px;
+    
+        & h1{
+            margin-right: 1%;
+        }
     }
-}
-
-.grupo1, .grupo2, .grupo3{
-    display: flex;
-    margin-left: 13.6%;
-}
-
-.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-    height: 450px;
-    background-color: rgb(26, 26, 26);
-
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 20px;
-    max-width: 50%;
-    padding-left: 5px;
-    padding-right: 10px;
-
-    border-radius: 20px;
+    
+    .grupo1, .grupo2, .grupo3{
+        text-align: center;
+        margin-left: 13.6%;
+    }
+    
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 450px;
+        background-color: rgb(26, 26, 26);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        max-width: 60%;
+        padding-left: 5px;
+        padding-right: 10px;
+    
+        border-radius: 20px;
+        
+    
+        display: block;
+    
+        & img{
+            height: 180px;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+    
+        & p{
+    
+            margin-top: 10px;
+    
+            & u{
+                
+            }
+        }
+    
+        & a{
+    
+            & img{
+                height: 80px;
+            }
+        }
+    }
+    
+    footer img {
+        height: 40px;
+      }
+    
+      footer p {
+        padding-top: 10px;
+      }
+    
+      footer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+      }
+    
+      .centroRedeSocial p {
+        text-align: center;
+      }
+    
+      footer a {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
     
 
-    display: block;
-
-    & img{
-        height: 180px;
-        border-radius: 20px;
-        margin-top: 25px;
-        margin-left: 2%;
-    }
-
-    & p{
-
-        margin-top: 10px;
-
-        & u{
-            
-        }
-    }
-
-    & a{
-
-        & img{
-            height: 80px;
-        }
-    }
 }
-
-footer img {
-    height: 40px;
-  }
-
-  footer p {
-    padding-top: 10px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-  }
-
-  .centroRedeSocial p {
-    text-align: center;
-  }
-
-  footer a {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
