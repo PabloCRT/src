@@ -40,21 +40,27 @@ nav{
 
 header{
     text-align: center;
+    height: 500px;
 
     & .baner{
-        height: 680px;
+        height: 770px;
         background-image: url(../assets/banerEquipe.jpg);
-        background-size: cover;
+        background-attachment: fixed;
     }
 }
 
 .caixaIntegrantes{
     text-align: center;
+    margin-top: 200px;
+
+    & h1{
+        margin-right: 1%;
+    }
 }
 
 .grupo1, .grupo2, .grupo3{
     display: flex;
-    margin-left: 11%;
+    margin-left: 13.6%;
 }
 
 .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
