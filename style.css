@@ -799,6 +799,18 @@
       padding-top: 25px;
       padding-left: 30px;
     }
+
+    & img{
+      height: 250px;
+    }
+
+    & .centroEquipe{
+      text-align: center;
+
+      & img{
+        margin-top: 20px;
+      }
+    }
   }
 
   .texto2{
@@ -896,7 +908,7 @@
         border-radius: 20px;
         margin-top: 25px;
         margin-right: 10px;
-        margin-left: 600px;
+        margin-left: 500px;
         border: #f5d276 solid 1px;
       }
     }
@@ -917,7 +929,7 @@
         border-radius: 20px;
         margin-top: 25px;
         margin-right: 10px;
-        margin-left: 680px;
+        margin-left: 600px;
         border: #f5d276 solid 1px;
       }
     }
