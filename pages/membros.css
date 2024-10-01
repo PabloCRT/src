@@ -46,7 +46,7 @@ header{
         height: 770px;
         width: 100%;
         background-image: url(../assets/banerEquipe.jpg);
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: center;
         background-position-y: center;
