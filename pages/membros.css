@@ -51,6 +51,11 @@ header{
         background-position: center top;
         backface-visibility: hidden;
         background-attachment: fixed;
+
+        & h1{
+            font-size: 100px;
+            padding-top: 10%;
+        }
     }
 }
 
