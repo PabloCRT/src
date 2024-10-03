@@ -39,7 +39,7 @@
     max-width: 90%;
 
     margin-left: 5%;
-    height: 600px;
+    height: 690px;
 
     & p{
       padding-left: 30px;
@@ -48,6 +48,10 @@
     & h3{
       padding-top: 25px;
       padding-left: 30px;
+    }
+
+    & img{
+      height: 50px;
     }
   }
 
