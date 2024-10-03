@@ -52,7 +52,12 @@
 
     & img{
       height: 100px;
+      border-radius: 20px;
     }
+  }
+
+  .centroEquipe{
+   text-align: center;
   }
 
   .texto2{
