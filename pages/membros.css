@@ -223,7 +223,7 @@
             background-position: center;
             backface-visibility: hidden;
             background-attachment: fixed;
-            margin-top: 7%;
+            top: 7%;
             
     
             & h1{
