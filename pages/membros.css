@@ -211,8 +211,7 @@
       }
     
     header{
-        text-align: center:
-        padding-top: 7%;
+        text-align: center;
         
     
         & .baner{
@@ -223,7 +222,6 @@
             background-repeat: no-repeat;
             background-position: center;
             backface-visibility: hidden;
-            background-attachment: fixed;
             
     
             & h1{
