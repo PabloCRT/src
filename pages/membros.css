@@ -220,9 +220,10 @@
             background-image: url(../assets/banerEquipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center top;
+            background-position: center;
             backface-visibility: hidden;
             background-attachment: fixed;
+            margin-top: 7%;
             
     
             & h1{
