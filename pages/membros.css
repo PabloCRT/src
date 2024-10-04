@@ -389,8 +389,9 @@
             background-image: url(../assets/banerEquipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            
+            background-position: center top;
             backface-visibility: hidden;
+            background-attachment: fixed;
             
     
             & h1{
