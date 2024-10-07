@@ -194,7 +194,7 @@
 
 
 
-@media screen and (max-width: 400px){
+@media (max-width: 400px){
 
     *{
         padding: 0;
@@ -336,7 +336,7 @@
         & .tudoLoc{
             background-color: rgb(26, 26, 26);
             margin-top: 100px;
-            height: 500px;
+            height: 600px;
             border-radius: 20px;
             max-width: 90%;
             margin-left: 5%;
@@ -407,7 +407,7 @@
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 401px) and (max-width: 600px){
 
     *{
         padding: 0;
