@@ -995,6 +995,10 @@
   .tudo{
     height: 30%;
     scale: 1.7;
+
+    & .trocar{
+      cursor: pointer;
+    }
   
     & .slideEdit{
       margin-top: 4%;
