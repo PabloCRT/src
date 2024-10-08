@@ -47,7 +47,7 @@
         text-align: center;
     
         & .baner{
-            height: 350px;
+            height: 500px;
             width: 100%;
             background-image: url(../assets/banerEquipe.jpg);
             background-size: 100%;
