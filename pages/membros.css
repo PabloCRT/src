@@ -1,4 +1,4 @@
-@media (min-width: 1300px){
+@media screen and (min-width: 360px) and (max-width: 1899px) {
 
     *{
         padding: 0;
@@ -9,209 +9,8 @@
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         background-color: black;
-    }
-    
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    a:hover{
-        color: #f5d276;
-    }
-    
-    nav{
-        height: 7%;
-        background-color: rgb(26, 26, 26);
-    
-        position: sticky;
-        top: 0;
-        
-        & img{
-            display: none;
-        }
-    
-        & ul {
-            display: flex;
-            justify-content: space-between;
-            list-style-type: none;
-            align-items: center;
-            padding: 14px;
-        
-            & li {
-              padding-top: 15px;
-            }
-          }
-    }
-    
-    header{
-        text-align: center;
-    
-        & .baner{
-            height: 500px;
-            width: 100%;
-            background-image: url(../assets/banerEquipe.jpg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center top;
-            backface-visibility: hidden;
-            background-attachment: fixed;
-    
-            & h1{
-                font-size: 100px;
-                padding-top: 10%;
-            }
-        }
-    }
-
-    .degrade{
-        height: 40px;
-        top: 0;
-        background: linear-gradient(to bottom, #8929a3b4, black);
-      }
-    
-    .caixaIntegrantes{
-        text-align: center;
-        margin-top: 20px;
-        padding-top: 10px;
-    
-        & h1{
-            margin-right: 1%;
-        }
-    }
-    
-    .grupo1, .grupo2, .grupo3{
-        display: flex;
-        margin-left: 13.6%;
-        padding-top: 20px;
-    }
-    
-    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 450px;
-        background-color: rgb(26, 26, 26);
-    
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 20px;
-        max-width: 50%;
-        padding-left: 5px;
-        padding-right: 10px;
-    
-        border-radius: 20px;
-        
-    
-        display: block;
-    
-        & img{
-            height: 180px;
-            border-radius: 20px;
-            margin-top: 25px;
-            margin-left: 2%;
-        }
-    
-        & p{
-    
-            margin-top: 10px;
-        }
-    
-        & a{
-    
-            & img{
-                height: 80px;
-            }
-        }
-    }
-
-    .FaixaLoc{
-        text-align: center;
-
-        & .tudoLoc{
-            background-color: rgb(26, 26, 26);
-            margin-top: 100px;
-            height: 380px;
-            border-radius: 20px;
-            max-width: 90%;
-            margin-left: 5%;
-            padding-top: 45px;
-
-            & h1{
-                margin-top: 10px;
-            }
-    
-            & .localizacao{
-                display: flex;
-                justify-content: center;
-    
-                & .tec{
-    
-                    & img{
-                        height: 200px;
-                        border-radius: 20px;
-                    }
-                }
-        
-                & .loc{
-                    border-left: solid 2px #8929a3b4;
-                    margin-left: 30px;
-                    padding-left: 30px;
-                    text-align: justify;
-        
-                    & img{
-                        height: 20px;
-                    }
-                }
-            }
-    
-            
-        }
-    }
-    
-    footer{
-
-        & img{
-            height: 40px;
-          } 
-        
-          & p{
-            padding-top: 10px;
-          }
-    }
-      
-    
-      footer {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 0;
-        background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-      }
-    
-      .centroRedeSocial p {
-        text-align: center;
-      }
-    
-      footer a {
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-      }
-    
-
-}
-
-
-
-
-
-@media (max-width: 400px){
-
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        background-color: black;
+        font-size: 2vh;
+        overflow-x: hidden;
     }
 
     .container{
@@ -228,7 +27,7 @@
     
     nav {
         background-color: rgb(26, 26, 26);
-        height: 7%;
+        height: 8.3%;
         display: flex;
 
         position: sticky;
@@ -244,13 +43,12 @@
           justify-content: space-between;
           list-style-type: none;
           align-items: center;
-          padding: 14px;
-          scale: 0.6;
+          padding: 0.1%;
+          scale: 0.7;
           overflow: hidden;
     
           & li {
-            padding-top: 15px;
-            padding: 0px 20px 0px 20px;
+            padding-top: 3%;
           }
         }
       }
@@ -266,9 +64,9 @@
         
     
         & .baner{
-            height: 124px;
+            height: 40%;
             width: 100%;
-            background-image: url(../assets/banerEquipe.jpg);
+            background-image: url(../assets/equipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: center;
@@ -276,8 +74,7 @@
             
     
             & h1{
-                font-size: 20px;
-                padding-top: 13%;
+                display: none;
             }
         }
     }
@@ -294,7 +91,7 @@
     .grupo1, .grupo2, .grupo3, .grupo4{
         display: block;
         text-align: center;
-        margin-left: 13.6%;
+        margin-left: 20%;
     }
     
     .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
@@ -413,10 +210,7 @@
 
 
 
-
-
-@media screen and (min-width: 401px) and (max-width: 600px){
-
+@media (min-width: 1900px){
     *{
         padding: 0;
         margin: 0;
@@ -427,10 +221,6 @@
         color: white;
         background-color: black;
     }
-
-    .container{
-        overflow: hidden;
-    }
     
     a{
         text-decoration: none;
@@ -440,48 +230,35 @@
         color: #f5d276;
     }
     
-    nav {
-        background-color: rgb(26, 26, 26);
+    nav{
         height: 7%;
-        display: flex;
-
+        background-color: rgb(26, 26, 26);
+    
         position: sticky;
         top: 0;
-
+        
         & img{
-            height: 100%;
+            display: none;
         }
     
         & ul {
-          display: flex;
-          justify-content: center;
-          justify-content: space-between;
-          list-style-type: none;
-          align-items: center;
-          padding: 14px;
-          scale: 0.6;
-          overflow: hidden;
-    
-          & li {
-            padding-top: 15px;
-            padding: 0px 20px 0px 20px;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            align-items: center;
+            padding: 14px;
+        
+            & li {
+              padding-top: 15px;
+            }
           }
-        }
-      }
-
-      .degrade{
-        height: 40px;
-        top: 0;
-        background: linear-gradient(to bottom, #8929a3b4, black);
-      }
+    }
     
     header{
         text-align: center;
-        height: 350px;
-        
     
         & .baner{
-            height: 350px;
+            height: 500px;
             width: 100%;
             background-image: url(../assets/banerEquipe.jpg);
             background-size: 100%;
@@ -489,32 +266,179 @@
             background-position: center top;
             backface-visibility: hidden;
             background-attachment: fixed;
-            
     
             & h1{
-                font-size: 80px;
-                padding-top: 13%;
+                font-size: 100px;
+                padding-top: 10%;
             }
         }
     }
+
+    .degrade{
+        height: 40px;
+        top: 0;
+        background: linear-gradient(to bottom, #8929a3b4, black);
+      }
     
     .caixaIntegrantes{
         text-align: center;
-        margin-top: 200px;
+        margin-top: 20px;
+        padding-top: 10px;
     
         & h1{
             margin-right: 1%;
         }
     }
     
-    .grupo1, .grupo2, .grupo3, .grupo4{
-        display: block;
-        text-align: center;
-        margin-left: 13.6%;
+    .grupo1, .grupo2, .grupo3{
+        display: flex;
+        padding-top: 20px;
     }
     
     .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
         height: 450px;
+        background-color: rgb(26, 26, 26);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        max-width: 50%;
+        padding-left: 5px;
+        padding-right: 10px;
+    
+        border-radius: 20px;
+        
+    
+        display: block;
+    
+        & img{
+            height: 180px;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+    
+        & p{
+    
+            margin-top: 10px;
+        }
+    
+        & a{
+    
+            & img{
+                height: 80px;
+            }
+        }
+    }
+
+    .FaixaLoc{
+        text-align: center;
+
+        & .tudoLoc{
+            background-color: rgb(26, 26, 26);
+            margin-top: 100px;
+            height: 380px;
+            border-radius: 20px;
+            max-width: 90%;
+            margin-left: 5%;
+            padding-top: 45px;
+
+            & h1{
+                margin-top: 10px;
+            }
+    
+            & .localizacao{
+                display: flex;
+                justify-content: center;
+    
+                & .tec{
+    
+                    & img{
+                        height: 200px;
+                        border-radius: 20px;
+                    }
+                }
+        
+                & .loc{
+                    border-left: solid 2px #8929a3b4;
+                    margin-left: 30px;
+                    padding-left: 30px;
+                    text-align: justify;
+        
+                    & img{
+                        height: 20px;
+                    }
+                }
+            }
+    
+            
+        }
+    }
+    
+    footer{
+
+        & img{
+            height: 40px;
+          } 
+        
+          & p{
+            padding-top: 10px;
+          }
+    }
+      
+    
+      footer {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 0;
+        background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+      }
+    
+      .centroRedeSocial p {
+        text-align: center;
+      }
+    
+      footer a {
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+}
+
+
+
+
+@media (min-width: 2000px){
+    nav {
+        background-color: rgb(26, 26, 26);
+        height: 8.3%;
+      
+        position: sticky;
+        top: 0;
+      
+        & ul {
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          align-items: center;
+          padding: 2%;
+          scale: 1;
+
+          & li{
+            margin-right: 200px;
+            margin-left: 200px;
+          }
+        }
+      }
+
+      .caixaIntegrantes{
+        text-align: center;
+        align-items: center;
+      }
+
+      .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 520px;
+        width: 15%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
@@ -530,7 +454,7 @@
         display: block;
     
         & img{
-            height: 180px;
+            height: 40%;
             border-radius: 20px;
             margin-top: 25px;
             margin-left: 2%;
@@ -552,6 +476,139 @@
             }
         }
     }
+}
+
+
+
+
+@media (min-width: 1900px){
+    nav {
+        background-color: rgb(26, 26, 26);
+        height: 8.3%;
+      
+        position: sticky;
+        top: 0;
+      
+        & ul {
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          align-items: center;
+          padding: 1%;
+          scale: 1;
+
+          & li{
+            margin-right: 200px;
+            margin-left: 200px;
+          }
+        }
+      }
+
+      .caixaIntegrantes{
+        text-align: center;
+      }
+
+      .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 520px;
+        width: 15%;
+        background-color: rgb(26, 26, 26);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        max-width: 60%;
+        padding-left: 5px;
+        padding-right: 10px;
+    
+        border-radius: 20px;
+        
+    
+        display: block;
+    
+        & img{
+            height: 40%;
+            border-radius: 20px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+    
+        & p{
+    
+            margin-top: 10px;
+    
+            & u{
+                
+            }
+        }
+    
+        & a{
+    
+            & img{
+                height: 80px;
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width: 7500px){
+    body{
+        font-size: 80px;
+    }
+
+    header{
+
+        
+        & .baner{
+            height: 43%;
+
+            & h1{
+                font-size: 400px;
+            }
+        }
+    }
+
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 70%;
+        background-color: rgb(26, 26, 26);
+    
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        max-width: 60%;
+        padding-left: 5px;
+        padding-right: 10px;
+    
+        border-radius: 60px;
+        
+    
+        display: block;
+    
+        & .integr{
+            height: 1200px;
+            border-radius: 60px;
+            margin-top: 25px;
+            margin-left: 2%;
+        }
+
+        & .insta{
+            height: 200px;
+        }
+    
+        & p{
+    
+            margin-top: 10px;
+        }
+    
+        & a{
+    
+            & img{
+                height: 80px;
+            }
+        }
+    }
 
     .FaixaLoc{
         text-align: center;
@@ -559,39 +616,36 @@
         & .tudoLoc{
             background-color: rgb(26, 26, 26);
             margin-top: 100px;
-            height: 450px;
-            border-radius: 20px;
+            height: 50%;
+            border-radius: 60px;
             max-width: 90%;
             margin-left: 5%;
             padding-top: 45px;
 
             & h1{
-                margin-top: 10px;
+                margin-top: 2%;
             }
     
             & .localizacao{
-                display: block;
+                display: flex;
                 justify-content: center;
     
                 & .tec{
     
                     & img{
-                        height: 200px;
-                        border-radius: 20px;
+                        height: 1200px;
+                        border-radius: 60px;
                     }
                 }
         
                 & .loc{
-                    border-left: solid 2px #8929a3b4;
-                    border-right: solid 2px #8929a3b4;
-                    margin-left: 30px;
-                    margin-right: 30px;
-                    margin-top: 30px;
-                    padding-left: 30px;
+                    border-left: solid 10px #8929a3b4;
+                    margin-left: 3%;
+                    padding-left: 3%;
                     text-align: justify;
         
                     & img{
-                        height: 20px;
+                        height: 100px;
                     }
                 }
             }
@@ -599,29 +653,11 @@
             
         }
     }
-    
-    footer img {
-        height: 40px;
-      }
-    
-      footer p {
-        padding-top: 10px;
-      }
-    
-      footer {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 0;
-        background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-      }
-    
-      .centroRedeSocial p {
-        text-align: center;
-      }
-    
-      footer a {
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-      }
+
+    .centroRedeSocial{
+
+        & img{
+            height: 20%;
+        }
+    }
 }
