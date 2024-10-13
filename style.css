@@ -320,7 +320,7 @@
   
   .slide {
     text-align: center;
-    scale: 1;
+    scale: 0.56;
   
     & button{
       font-size: 150%;
@@ -724,7 +724,7 @@
   
   .slide {
     text-align: center;
-    scale: 1;
+    scale: 0.5;
   }
   
   #primeiraImagem {
