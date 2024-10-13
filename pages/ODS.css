@@ -1,1119 +1,618 @@
-@media (max-width: 400px) {
+@media screen and (min-width: 360px){
   * {
     padding: 0;
     margin: 0;
-  }
-
-  body {
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .container{
-    overflow-x: hidden;
-  }
-
-  
-
-  p, h3 {
-    padding-left: 10px;
-  }
-
-
-  .texto1{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 1350px;
-
-    & p{
-      padding-left: 30px;
     }
-
-    & h6{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .textoODS{
     
-    & p{
-      padding-left: 0px;
-    }
-  }
-
-  .texto{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .texto2{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 350px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .premio{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  nav {
-    background-color: rgb(26, 26, 26);
-    height: 7%;
-
-    position: sticky;
-    top: 0;
-
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 14px;
-
-      & li {
-        padding-top: 15px;
-      }
-    }
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  header img {
-    height: 30%;
-    border-radius: 50%;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  footer img {
-    height: 20.25px;
-  }
-
-  footer p {
-    padding-top: 10px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-  }
-
-  .centroRedeSocial p {
-    text-align: center;
-  }
-
-  footer a {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  /*  */
-
-  a:hover {
-    color: #f5d276;
-  }
-
-  section p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-right: 50px;
-  }
-
-  h3 {
-    width: 500px;
-    margin-top: 20px;
-  }
-
-  h3:hover {
-    color: #f5d276;
-  }
-
-  h1 {
-    color: #8829a3;
-  }
-
-  /* Integrantes */
-
-  .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
-  }
-
-  .justificado {
-    display: block;
-    scale: 0.6;
-  }
-
-  .justificado li {
-    list-style-type: none;
-  }
-
-  .funcao {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-  }
-
-  .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  .slide {
-    text-align: center;
-  }
-
-  .tudo {
-    display: flex;
-    justify-content: center;
-
-    & .slideEdit2 {
-      height: 80pxpx;
-    }
-
-    & .slideEdit {
-      height: 150px;
-    }
-  }
-
-  .img1 {
-    height: 150px;
-  }
-
-  .trocar {
-    background-color: transparent;
-    border: none;
-    color: #f5d276;
-  }
-  .trocar:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-
-  .recado {
-    text-align: center;
-    margin-top: 70px;
-  }
-}
-
-
-
-
-
-@media (min-width: 400px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  
-
-  p,
-  h1,
-  h3 {
-    padding-left: 10px;
-  }
-
-
-  .texto1{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 1250px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h6{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .textoODS{
-    
-    & p{
-      padding-left: 0px;
-    }
-  }
-
-  .texto{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .texto2{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 350px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .premio{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  nav {
-    background-color: rgb(26, 26, 26);
-    height: 7%;
-
-    position: sticky;
-    top: 0;
-
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 14px;
-
-      & li {
-        padding-top: 15px;
-      }
-    }
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-  }
-
-  header img {
-    height: 30%;
-    border-radius: 50%;
-  }
-
-  .center {
-    text-align: center;
-  }
-
-  footer img {
-    height: 20.25px;
-  }
-
-  footer p {
-    padding-top: 10px;
-  }
-
-  footer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-  }
-
-  .centroRedeSocial p {
-    text-align: center;
-  }
-
-  footer a {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  /*  */
-
-  a:hover {
-    color: #f5d276;
-  }
-
-  section p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-right: 50px;
-  }
-
-  h3 {
-    width: 500px;
-    margin-top: 20px;
-  }
-
-  h3:hover {
-    color: #f5d276;
-  }
-
-  h1 {
-    color: #8829a3;
-  }
-
-  /* Integrantes */
-
-  .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    width: 100%;
-  }
-
-  .justificado {
-    display: block;
-    scale: 0.6;
-  }
-
-  .justificado li {
-    list-style-type: none;
-  }
-
-  .funcao {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-  }
-
-  .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  h2 {
-    text-align: center;
-  }
-
-  .slide {
-    text-align: center;
-  }
-
-  .tudo {
-    display: flex;
-    justify-content: center;
-
-    & .slideEdit2 {
-      height: 80pxpx;
-    }
-
-    & .slideEdit {
-      height: 150px;
-    }
-  }
-
-  .img1 {
-    height: 150px;
-  }
-
-  .trocar {
-    background-color: transparent;
-    border: none;
-    color: #f5d276;
-  }
-  .trocar:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-
-  .recado {
-    text-align: center;
-    margin-top: 70px;
-  }
-}
-
-
-
-
-
-
-@media (min-width: 1300px) {
-  * {
-    padding: 0;
-    margin: 0;
-  }
-
-  body {
+    body {
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-  }
-
-  
-
-  p,
-  h1,
-  h3 {
-    padding-left: 10px;
-  }
-
-
-  .texto1{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 370px;
-
-    & p{
-      padding-left: 30px;
+    overflow-x: hidden;
     }
-
-    & h6{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .textoODS{
     
-    & p{
-      padding-left: 0px;
-    }
-  }
+    nav {
+      background-color: rgb(26, 26, 26);
+      height: 73px;
 
-  .texto{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .texto2{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 150px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  .recurso6{
-
-    & img{
-      border-radius: 50px;
-    }
-  }
-
-  .premio{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-
-    max-width: 90%;
-
-    margin-left: 5%;
-    height: 200px;
-
-    & p{
-      padding-left: 30px;
-    }
-
-    & h3{
-      padding-top: 25px;
-      padding-left: 30px;
-    }
-  }
-
-  nav {
-    background-color: rgb(26, 26, 26);
-    height: 7%;
-
-    position: sticky;
-    top: 0;
-
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 14px;
-
-      & li {
-        padding-top: 15px;
+      position: sticky;
+      top: 0;
+      
+      & ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 14px;
+      
+        & li {
+          padding-top: 15px;
+        }
       }
+      }
+    
+      .texto1{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 55%;
+        padding-top: 0.1%;
+      }
+    
+      .texto2{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 50%;
+        padding-top: 0.1%;
+    
+        & .recurso6{
+          text-align: center;
+          display: block;
+    
+          & img{
+            padding-top: 2%;
+          }
+    
+          
+        }
+      }
+    
+      .texto3{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 30%;
+        padding-top: 0.1%;
+      }
+    
+    
+    
+    p, h1, h3, h6 {
+      padding-left: 2%;
+      padding-top: 2%;
     }
-  }
-
-  a {
+    
+    a {
     color: white;
     text-decoration: none;
-  }
-
-  header img {
+    }
+    
+    a:hover{
+      cursor: pointer;
+      color: #f5d276;
+    }
+    
+    header img {
     height: 30%;
-    border-radius: 50%;
-  }
-
-  .center {
+    }
+    
+    .center {
     text-align: center;
-  }
-
-  footer img {
-    height: 20.25px;
-  }
-
-  footer p {
+    }
+    
+    footer img {
+    width: 40px;
+    height: 40px;
+    }
+    
+    footer p {
     padding-top: 10px;
-  }
-
-  footer {
+    }
+    
+    footer {
     display: flex;
     justify-content: center;
     padding-bottom: 0;
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-  }
-
-  .centroRedeSocial p {
-    text-align: center;
-  }
-
-  footer a {
+    }
+    
+    .centroRedeSocial p {
+    padding-right: +78px;
+    }
+    
+    footer a {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
-
-  /*  */
-
-  a:hover {
+    }
+    
+    /*  */
+    
+    a:hover {
     color: #f5d276;
-  }
-
-  section p {
+    }
+    
+    section p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-right: 50px;
-  }
-
-  h3 {
+    }
+    
+    h3 {
     width: 500px;
     margin-top: 20px;
-  }
-
-  h3:hover {
+    }
+    
+    h3:hover {
     color: #f5d276;
-  }
-
-  h1 {
+    }
+    
+    h1 {
     color: #8829a3;
-  }
-
-  /* Integrantes */
-
-  .integrantes {
+    }
+    
+    h6 {
+    color: #8829a3;
+    }
+    
+    /* Integrantes */
+    
+    .integrantes {
     background-color: rgb(23, 23, 23);
     padding-top: 50px;
     margin-top: 100px;
     padding-bottom: 50px;
-    width: 100%;
     display: flex;
     justify-content: center;
-
-    width: 100%;
-  }
-
-  .justificado {
+    }
+    
+    .justificado {
     display: block;
-    scale: 100%;
-  }
-
-  .justificado li {
+    }
+    
+    .justificado li {
     list-style-type: none;
-  }
-
-  .funcao {
+    }
+    
+    .funcao {
     display: flex;
     justify-content: center;
+    }
+    
+    .funcao {
     justify-content: space-between;
-  }
-
-  .programadores {
+    }
+    
+    .programadores {
     padding-right: 20px;
     border-left: rgb(71, 71, 71) solid 3px;
     padding-left: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .merito {
+    }
+    
+    .merito {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    .organizacao {
     padding-right: 20px;
     padding-left: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Tec {
+    }
+    
+    .Tec {
     padding-left: 20px;
     padding-right: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  .Ment {
+    }
+    
+    .Ment {
     padding-left: 20px;
     padding-right: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-  h2 {
+    }
+    
+    h2 {
     text-align: center;
-  }
-
-  .slide {
-    text-align: center;
-  }
-
-  .tudo {
+    }
+    
+    .textoODS {
     display: flex;
     justify-content: center;
-
-    & .slideEdit2 {
-      height: 80pxpx;
-    }
-
-    & .slideEdit {
-      height: 150px;
-    }
-  }
-
-  .img1 {
-    height: 150px;
-  }
-
-  .trocar {
-    background-color: transparent;
-    border: none;
-    color: #f5d276;
-  }
-  .trocar:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-  }
-
-  .recado {
+    
     text-align: center;
-    margin-top: 70px;
-  }
-}
-
-
-/* Site no computador */
-
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  color: white;
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.espaco {
-  height: 40px;
-  background-color: rgb(23, 23, 23);
-}
-
-p,
-h1,
-h3,
-h6 {
-  padding-left: 80px;
-}
-
-.imagem{
-  text-align: center;
-  padding-top: 100px;
-
-  & img{
-    height: 600px;
-    border: solid 1px #f5d276;
-    border-radius: 20px;
-  }
-}
-
-.imagem img:hover{
-  transform: scale(1.1);
-}
-
-nav {
-  background-color: rgb(26, 26, 26);
-  height: 73px;
-
-  & ul {
+    }
+    
+    .siteODS {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    align-items: center;
-    padding: 14px;
+    justify-content: center;
+    
+    text-align: center;
+    }
+    
+    .ods {
+    text-align: center;
+    
+    & img {
+      height: 200px;
+    }
+    }
+    
+    .recurso6 {
+    text-align: center;
+    
+    & img {
+      height: 200px;
+    }
+}
+}
 
-    & li {
-      padding-top: 15px;
+
+
+@media (max-width: 620px){
+  .texto1{
+    height: 138%;
+  }
+
+  .justificado{
+    scale: 0.56;
+  }
+}
+
+
+
+
+@media (max-width: 1210px){
+  .texto1{
+    height: 108%;
+  }
+
+  .justificado{
+    scale: 0.8;
+  }
+}
+
+
+
+
+@media screen and (min-width: 2000px){
+  * {
+    padding: 0;
+    margin: 0;
+    }
+    
+    body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    }
+    
+    nav {
+      background-color: rgb(26, 26, 26);
+      height: 8.3%;
+    
+      position: sticky;
+      top: 0;
+    
+      & ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 0.6%;
+    
+        & li {
+          padding-top: 1.3%;
+        }
+      }
+    }
+    
+      .texto1{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 65%;
+        padding-top: 0.1%;
+      }
+    
+      .texto2{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 50%;
+        padding-top: 0.1%;
+    
+        & .recurso6{
+          text-align: center;
+          display: block;
+    
+          & img{
+            padding-top: 2%;
+          }
+    
+          
+        }
+      }
+    
+      .texto3{
+        background-color: rgb(26, 26, 26);
+        border-radius: 20px;
+      
+        max-width: 90%;
+      
+        margin-left: 5%;
+        height: 30%;
+        padding-top: 0.1%;
+      }
+    
+    
+    
+    p, h1, h3, h6 {
+      padding-left: 2%;
+      padding-top: 2%;
+    }
+    
+    a {
+    color: white;
+    text-decoration: none;
+    }
+    
+    a:hover{
+      cursor: pointer;
+      color: #f5d276;
+    }
+    
+    header img {
+    height: 30%;
+    }
+    
+    .center {
+    text-align: center;
+    }
+    
+    footer img {
+    width: 40px;
+    height: 40px;
+    }
+    
+    footer p {
+    padding-top: 10px;
+    }
+    
+    footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+    }
+    
+    .centroRedeSocial p {
+    padding-right: +78px;
+    }
+    
+    footer a {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    
+    /*  */
+    
+    a:hover {
+    color: #f5d276;
+    }
+    
+    section p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-right: 50px;
+    }
+    
+    h3 {
+    width: 500px;
+    margin-top: 20px;
+    }
+    
+    h3:hover {
+    color: #f5d276;
+    }
+    
+    h1 {
+    color: #8829a3;
+    }
+    
+    h6 {
+    color: #8829a3;
+    }
+    
+    /* Integrantes */
+    
+    .integrantes {
+    background-color: rgb(23, 23, 23);
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .justificado {
+    display: block;
+    }
+    
+    .justificado li {
+    list-style-type: none;
+    }
+    
+    .funcao {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .funcao {
+    justify-content: space-between;
+    }
+    
+    .programadores {
+    padding-right: 20px;
+    border-left: rgb(71, 71, 71) solid 3px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    .merito {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    .organizacao {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    .Tec {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    .Ment {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: rgb(71, 71, 71) solid 3px;
+    }
+    
+    h2 {
+    text-align: center;
+    }
+    
+    .textoODS {
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    }
+    
+    .siteODS {
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    }
+    
+    .ods {
+    text-align: center;
+    
+    & img {
+      height: 200px;
+    }
+    }
+    
+    .recurso6 {
+    text-align: center;
+    
+    & img {
+      height: 200px;
+    }
+}
+}
+
+
+
+
+@media (min-width: 3000px){
+  body{
+    font-size: 35px;
+  }
+
+  .ods{
+
+    & img{
+      height: 500px;
+    }
+  }
+
+  .texto2{
+
+    & img{
+      height: 400px;
+    }
+  }
+
+  .centroRedeSocial{
+
+    & img{
+      height: 100px;
+      width: 100px;
     }
   }
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
 
-header img {
-  height: 30%;
-  border-radius: 50%;
-}
 
-.center {
-  text-align: center;
-}
 
-footer img {
-  width: 40px;
-  height: 40px;
-}
+@media (min-width: 4000px){
+  body{
+    font-size: 50px;
+  }
 
-footer p {
-  padding-top: 10px;
-}
+  .ods{
 
-footer {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 0;
-  background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-}
+    & img{
+      height: 500px;
+    }
+  }
 
-.centroRedeSocial p {
-  padding-right: +78px;
-}
+  .texto2{
 
-footer a {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
+    & img{
+      height: 400px;
+    }
+  }
 
-/*  */
+  .centroRedeSocial{
 
-a:hover {
-  color: #f5d276;
-}
-
-section p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  padding-right: 50px;
-}
-
-h3 {
-  width: 500px;
-  margin-top: 20px;
-}
-
-h3:hover {
-  color: #f5d276;
-}
-
-h1 {
-  color: #8829a3;
-}
-
-h6 {
-  color: #8829a3;
-}
-
-/* Integrantes */
-
-.integrantes {
-  background-color: rgb(23, 23, 23);
-  padding-top: 50px;
-  margin-top: 100px;
-  padding-bottom: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.justificado {
-  display: block;
-}
-
-.justificado li {
-  list-style-type: none;
-}
-
-.funcao {
-  display: flex;
-  justify-content: center;
-}
-
-.funcao {
-  justify-content: space-between;
-}
-
-.programadores {
-  padding-right: 20px;
-  border-left: rgb(71, 71, 71) solid 3px;
-  padding-left: 20px;
-  border-right: rgb(71, 71, 71) solid 3px;
-}
-
-.merito {
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-left: 20px;
-  border-right: rgb(71, 71, 71) solid 3px;
-}
-
-.organizacao {
-  padding-right: 20px;
-  padding-left: 20px;
-  border-right: rgb(71, 71, 71) solid 3px;
-}
-
-.Tec {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-right: rgb(71, 71, 71) solid 3px;
-}
-
-.Ment {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-right: rgb(71, 71, 71) solid 3px;
-}
-
-h2 {
-  text-align: center;
-}
-
-.textoODS {
-  display: flex;
-  justify-content: center;
-
-  text-align: center;
-}
-
-.siteODS {
-  display: flex;
-  justify-content: center;
-
-  text-align: center;
-}
-
-.ods {
-  text-align: center;
-
-  & img {
-    height: 200px;
+    & img{
+      height: 150px;
+      width: 150px;
+    }
   }
 }
 
-.recurso6 {
-  text-align: center;
+@media (min-width: 7500px){
+  body{
+    font-size: 85px;
+  }
 
-  & img {
-    height: 200px;
+  .texto1, .texto2, .texto3{
+    border-radius: 60px;
+  }
+
+  .ods{
+
+    & img{
+      height: 800px;
+    }
+  }
+
+  .texto2{
+
+    & img{
+      height: 800px;
+    }
   }
 }
