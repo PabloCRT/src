@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px){
+@media screen and (min-width: 360px){ 
   * {
     padding: 0;
     margin: 0;
@@ -30,7 +30,7 @@
     max-width: 90%;
   
     margin-left: 5%;
-    height: 125%;
+    height: 115%;
     padding-top: 0.1%;
   
     & p{
@@ -43,7 +43,7 @@
     }
   
     & img{
-      height: 30%;
+      height: 50%;
       margin-top: 2%;
       border-radius: 20px;
     }
@@ -142,7 +142,7 @@
         height: 70%;
         border: #f5d276 solid 1px;
         border-radius: 20px;
-        margin-top: 7%;
+        margin-top: 2%;
         margin-right: 2%;
       }
     }
@@ -161,7 +161,7 @@
         height: 80%;
         border-radius: 20px;
         border: #f5d276 solid 1px;
-        margin-top: 7%;
+        margin-top: 0.5%;
         margin-right: 2%;
       }
     }
@@ -368,6 +368,32 @@
   .recado {
     text-align: center;
     margin-top: 70px;
+  }
+}
+
+
+
+
+@media(max-width: 620px){
+  .texto1{
+    height: 130%;
+
+    & img{
+      height: 40%;
+    }
+  }
+}
+
+
+
+
+@media(max-width: 1210px){
+  .texto1{
+    height: 130%;
+
+    & img{
+      height: 40%;
+    }
   }
 }
 
