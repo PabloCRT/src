@@ -30,7 +30,7 @@
     max-width: 90%;
   
     margin-left: 5%;
-    height: 115%;
+    height: 130%;
     padding-top: 0.1%;
   
     & p{
@@ -38,13 +38,12 @@
     }
   
     & h3{
-      padding-top: 2%;
       padding-left: 2%;
     }
   
     & img{
       height: 50%;
-      margin-top: 2%;
+      margin-top: 1%;
       border-radius: 20px;
     }
   }
@@ -179,10 +178,10 @@
       justify-content: space-between;
       list-style-type: none;
       align-items: center;
-      padding: 14px;
+      padding: 3.5%;
   
       & li {
-        padding-top: 15px;
+        padding-top: 9px;
       }
     }
   }
@@ -403,6 +402,35 @@
 
 
 
+@media (min-width: 1900px){
+  nav {
+    background-color: rgb(26, 26, 26);
+    height: 8.3%;
+  
+    position: sticky;
+    top: 0;
+  
+    & ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      align-items: center;
+      padding: 1.8%;
+  
+      & li {
+        padding-top: 0;
+      }
+    }
+  }
+
+  .justificado{
+    scale: 1.2;
+  }
+}
+
+
+
+
 @media screen and (min-width: 2000px){
   * {
     padding: 0;
@@ -430,7 +458,7 @@
   
   .texto1{
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
+    border-radius: 50px;
   
     max-width: 90%;
   
@@ -460,7 +488,7 @@
   
   .texto2{
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
+    border-radius: 50px;
   
     max-width: 90%;
   
@@ -479,7 +507,7 @@
   
   .texto3{
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
+    border-radius: 50px;
   
     max-width: 90%;
   
@@ -498,7 +526,7 @@
   
   .texto4{
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
+    border-radius: 50px;
   
     max-width: 90%;
   
@@ -519,7 +547,7 @@
   .texto5{
     display: flex;
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
+    border-radius: 50px;
     max-width: 90%;
     margin-left: 5%;
     height: 90%;
@@ -787,6 +815,8 @@
     overflow-x: hidden;
     scrollbar-width: none;
   }
+
+
 
   .container{
     overflow-x: hidden;
