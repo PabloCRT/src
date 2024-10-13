@@ -11,6 +11,10 @@
     font-size: 18px;
     overflow-x: hidden;
     }
+
+    .container{
+      overflow: hidden;
+    }
     
     nav {
       background-color: rgb(26, 26, 26);
