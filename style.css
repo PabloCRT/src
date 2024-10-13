@@ -216,8 +216,11 @@
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
   
-  .centroRedeSocial p {
-    text-align: center;
+  .centroRedeSocial{
+
+    & img{
+      height: 50px;
+    }
   }
   
   footer a {
@@ -317,7 +320,7 @@
   
   .slide {
     text-align: center;
-    scale: 0.6;
+    scale: 1;
   
     & button{
       font-size: 150%;
@@ -617,7 +620,7 @@
   .centroRedeSocial {
     
     & img{
-      height: 60px;
+      height: 100px;
       margin: 10px;
     }
   }
