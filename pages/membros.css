@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 1899px) {
+@media screen and (min-width: 360px) and (max-width: 620px) {
 
     *{
         padding: 0;
@@ -95,12 +95,12 @@
     }
     
     .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 450px;
+        height: 55%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 20px;
+        margin-top: 2%;
         max-width: 60%;
         padding-left: 5px;
         padding-right: 10px;
@@ -132,6 +132,10 @@
                 height: 80px;
             }
         }
+    }
+
+    .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
+        transform: scale(1.5);
     }
 
     .FaixaLoc{
@@ -196,9 +200,13 @@
         background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
       }
     
-      .centroRedeSocial p {
-        text-align: center;
-      }
+      .centroRedeSocial{
+
+        & img{
+            height: 5vh;
+            width: 5vh;
+        }
+    }
     
       footer a {
         text-align: center;
@@ -220,6 +228,12 @@
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         background-color: black;
+        font-size: 2vh;
+        overflow-x: hidden;
+    }
+
+    .container{
+        overflow: hidden;
     }
     
     a{
@@ -230,79 +244,73 @@
         color: #f5d276;
     }
     
-    nav{
-        height: 7%;
+    nav {
         background-color: rgb(26, 26, 26);
-    
+        height: 8.3%;
+      
         position: sticky;
         top: 0;
-        
-        & img{
-            display: none;
-        }
-    
+      
         & ul {
-            display: flex;
-            justify-content: space-between;
-            list-style-type: none;
-            align-items: center;
-            padding: 14px;
-        
-            & li {
-              padding-top: 15px;
-            }
+          display: flex;
+          justify-content: space-between;
+          list-style-type: none;
+          align-items: center;
+          padding: 2%;
+          scale: 1;
+
+          & li{
+            margin-right: 200px;
+            margin-left: 200px;
           }
-    }
-    
-    header{
-        text-align: center;
-    
-        & .baner{
-            height: 500px;
-            width: 100%;
-            background-image: url(../assets/banerEquipe.jpg);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            background-position: center top;
-            backface-visibility: hidden;
-            background-attachment: fixed;
-    
-            & h1{
-                font-size: 100px;
-                padding-top: 10%;
-            }
         }
     }
 
-    .degrade{
+      .degrade{
         height: 40px;
         top: 0;
         background: linear-gradient(to bottom, #8929a3b4, black);
       }
     
+    header{
+        text-align: center;
+        
+    
+        & .baner{
+            height: 60%;
+            width: 100%;
+            background-image: url(../assets/equipe.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            backface-visibility: hidden;
+            background-attachment: fixed;
+            
+    
+            & h1{
+                padding-top: 290px;
+                font-size: 8vh;
+            }
+        }
+    }
+    
     .caixaIntegrantes{
         text-align: center;
-        margin-top: 20px;
-        padding-top: 10px;
-    
-        & h1{
-            margin-right: 1%;
-        }
     }
     
     .grupo1, .grupo2, .grupo3{
         display: flex;
-        padding-top: 20px;
     }
     
     .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 450px;
+        height: 520px;
+        width: 15%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 20px;
-        max-width: 50%;
+        margin-top: 2%;
+        max-width: 60%;
         padding-left: 5px;
         padding-right: 10px;
     
@@ -312,7 +320,7 @@
         display: block;
     
         & img{
-            height: 180px;
+            height: 40%;
             border-radius: 20px;
             margin-top: 25px;
             margin-left: 2%;
@@ -321,6 +329,10 @@
         & p{
     
             margin-top: 10px;
+    
+            & u{
+                
+            }
         }
     
         & a{
@@ -331,13 +343,17 @@
         }
     }
 
+    .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
+        transform: scale(1.5);
+    }
+
     .FaixaLoc{
         text-align: center;
 
         & .tudoLoc{
             background-color: rgb(26, 26, 26);
             margin-top: 100px;
-            height: 380px;
+            height: 600px;
             border-radius: 20px;
             max-width: 90%;
             margin-left: 5%;
@@ -354,19 +370,23 @@
                 & .tec{
     
                     & img{
-                        height: 200px;
+                        height: 350px;
                         border-radius: 20px;
                     }
                 }
         
                 & .loc{
                     border-left: solid 2px #8929a3b4;
-                    margin-left: 30px;
-                    padding-left: 30px;
+                    margin-left: 50px;
+                    padding-left: 50px;
                     text-align: justify;
         
                     & img{
-                        height: 20px;
+                        height: 25px;
+                    }
+
+                    & p{
+                        padding-top: 15%;
                     }
                 }
             }
@@ -375,17 +395,13 @@
         }
     }
     
-    footer{
-
-        & img{
-            height: 40px;
-          } 
-        
-          & p{
-            padding-top: 10px;
-          }
-    }
-      
+    footer img {
+        height: 40px;
+      }
+    
+      footer p {
+        padding-top: 10px;
+      }
     
       footer {
         display: flex;
@@ -394,9 +410,13 @@
         background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
       }
     
-      .centroRedeSocial p {
-        text-align: center;
-      }
+      .centroRedeSocial{
+
+        & img{
+            height: 5vh;
+            width: 5vh;
+        }
+    }
     
       footer a {
         text-align: center;
@@ -408,7 +428,7 @@
 
 
 
-@media (min-width: 2000px){
+@media (min-width: 2000px) and (max-width: 4999px) {
     nav {
         background-color: rgb(26, 26, 26);
         height: 8.3%;
@@ -431,19 +451,45 @@
         }
       }
 
+      header{
+        text-align: center;
+        
+    
+        & .baner{
+            height: 60%;
+            width: 100%;
+            background-image: url(../assets/equipe.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            backface-visibility: hidden;
+            background-attachment: fixed;
+            
+    
+            & h1{
+                padding-top: 15%;
+                font-size: 8vh;
+            }
+        }
+    }
+
+    .degrade{
+        height: 5%;
+    }
+
       .caixaIntegrantes{
         text-align: center;
         align-items: center;
       }
 
       .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 520px;
+        height: 820px;
         width: 15%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 20px;
+        margin-top: 2%;
         max-width: 60%;
         padding-left: 5px;
         padding-right: 10px;
@@ -454,7 +500,7 @@
         display: block;
     
         & img{
-            height: 40%;
+            height: 45%;
             border-radius: 20px;
             margin-top: 25px;
             margin-left: 2%;
@@ -476,69 +522,50 @@
             }
         }
     }
+
+    .centroRedeSocial{
+
+        & img{
+            height: 5vh;
+            width: 5vh;
+        }
+    }
 }
 
 
 
-
-@media (min-width: 1900px){
-    nav {
-        background-color: rgb(26, 26, 26);
-        height: 8.3%;
-      
-        position: sticky;
-        top: 0;
-      
-        & ul {
-          display: flex;
-          justify-content: space-between;
-          list-style-type: none;
-          align-items: center;
-          padding: 1%;
-          scale: 1;
-
-          & li{
-            margin-right: 200px;
-            margin-left: 200px;
-          }
-        }
-      }
-
-      .caixaIntegrantes{
-        text-align: center;
-      }
-
-      .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 520px;
+@media screen and (min-width: 5000px) and (max-width: 7499px){
+    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+        height: 1420px;
         width: 15%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 20px;
+        margin-top: 2%;
         max-width: 60%;
         padding-left: 5px;
         padding-right: 10px;
     
-        border-radius: 20px;
+        border-radius: 60px;
         
     
         display: block;
     
-        & img{
+        & .integr{
             height: 40%;
-            border-radius: 20px;
+            border-radius: 60px;
             margin-top: 25px;
             margin-left: 2%;
+        }
+
+        & .insta{
+            height: 10%;
         }
     
         & p{
     
             margin-top: 10px;
-    
-            & u{
-                
-            }
         }
     
         & a{
@@ -546,6 +573,54 @@
             & img{
                 height: 80px;
             }
+        }
+    }
+
+    .FaixaLoc{
+        text-align: center;
+
+        & .tudoLoc{
+            background-color: rgb(26, 26, 26);
+            margin-top: 10%;
+            height: 70%;
+            border-radius: 60px;
+            max-width: 90%;
+            margin-left: 5%;
+
+            & h1{
+                margin-top: 2.5%;
+            }
+    
+            & .localizacao{
+                display: flex;
+                justify-content: center;
+    
+                & .tec{
+    
+                    & img{
+                        height: 90%;
+                        border-radius: 60px;
+                        margin-left: 1%;
+                    }
+                }
+        
+                & .loc{
+                    border-left: solid 5px #8929a3b4;
+                    margin-left: 7%;
+                    padding-left: 5%;
+                    text-align: justify;
+        
+                    & img{
+                        height: 3.8%;
+                    }
+
+                    & p{
+                        padding-top: 15%;
+                    }
+                }
+            }
+    
+            
         }
     }
 }
@@ -562,12 +637,17 @@
 
         
         & .baner{
-            height: 43%;
+            height: 55%;
 
             & h1{
+                padding-top: 15%;
                 font-size: 400px;
             }
         }
+    }
+
+    .degrade{
+        height: 5%;
     }
 
     .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
@@ -576,7 +656,7 @@
     
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: 20px;
+        margin-top: 2%;
         max-width: 60%;
         padding-left: 5px;
         padding-right: 10px;
@@ -615,7 +695,7 @@
 
         & .tudoLoc{
             background-color: rgb(26, 26, 26);
-            margin-top: 100px;
+            margin-top: 15%;
             height: 50%;
             border-radius: 60px;
             max-width: 90%;
@@ -657,7 +737,8 @@
     .centroRedeSocial{
 
         & img{
-            height: 20%;
+            height: 5vh;
+            width: 5vh;
         }
     }
 }
