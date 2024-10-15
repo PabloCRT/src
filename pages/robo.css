@@ -62,7 +62,7 @@
       max-width: 90%;
     
       margin-left: 5%;
-      height: 48%;
+      height: 65%;
       padding-top: 0.1%;
     
       & p{
@@ -82,7 +82,7 @@
       max-width: 90%;
     
       margin-left: 5%;
-      height: 33%;
+      height: 45%;
       padding-top: 0.1%;
     
       & p{
@@ -102,7 +102,7 @@
       max-width: 90%;
     
       margin-left: 5%;
-      height: 21%;
+      height: 30%;
       padding-top: 0.1%;
     
       & p{
@@ -131,8 +131,12 @@
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
   
-  .centroRedeSocial p {
-    padding-right: +78px;
+  .centroRedeSocial{
+    
+    & img{
+      height: 5vh;
+      width: 5vh;
+    }
   }
   
   footer a {
@@ -179,7 +183,7 @@
   
   .justificado {
     display: block;
-    scale: 0.6;
+    scale: 0.56;
   }
   
   .justificado li {
@@ -235,41 +239,7 @@
 
 
 
-@media (max-width: 620px){
-
-  body{
-    font-size: 2vh;
-  }
-
-  nav {
-    background-color: rgb(26, 26, 26);
-    height: 8.3%;
-  
-    position: sticky;
-    top: 0;
-  
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 3.5%;
-  
-      & li {
-        padding-top: 9px;
-      }
-    }
-  }
-
-  .justificado{
-    scale: 0.8;
-  }
-}
-
-
-
-
-@media(max-width: 1500px){
+@media(min-width: 1200px){
   nav {
     background-color: rgb(26, 26, 26);
     height: 8.3%;
@@ -304,7 +274,7 @@
     color: white;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 2vh;
   }
   
   p, h1, h3 {
@@ -425,10 +395,6 @@
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
   
-  .centroRedeSocial p {
-    padding-right: +78px;
-  }
-  
   footer a {
     text-align: center;
     padding-top: 5%;
@@ -473,7 +439,7 @@
   
   .justificado {
     display: block;
-    scale: 1.3;
+    scale: 1;
   }
   
   .justificado li {
@@ -530,7 +496,7 @@
 
 @media (min-width: 7500px){
   body{
-    font-size: 80px;
+    font-size: 2vh;
   }
 
   nav {
