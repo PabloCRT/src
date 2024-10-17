@@ -207,4 +207,8 @@ nav{
   .hamburguer{
     display: block;
   }
+
+  .justificado{
+    scale: 0.56;
+  }
 }
