@@ -10,14 +10,15 @@ body{
   font-size: 2vh;
 }
 
-nav {
+nav{
+  max-width: 100%;
   background-color: rgb(26, 26, 26);
   height: 8.3%;
 
   position: sticky;
   top: 0;
   
-  & ul {
+  & ul{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -29,6 +30,27 @@ nav {
     }
   }
   }
+
+/* Botão responsivo */
+
+.hamburguer{
+  border: none;
+  background: none;
+  border-top: 3px solid white;
+  cursor: pointer;
+}
+
+.hamburguer::before, .hamburguer::after{
+  content: " ";
+  display: none;
+  width: 3%;
+  height: 50px;
+  background: white;
+  margin-top: 0.09%;
+  
+}
+
+/* Botão responsivo */
 
   a{
     color: white;
@@ -179,3 +201,10 @@ nav {
     padding-bottom: 5%;
     }
   }
+
+
+@media screen and (min-width: 360) and (max-width: 1200px) {
+  .hamburguer{
+    display: block;
+  }
+}
