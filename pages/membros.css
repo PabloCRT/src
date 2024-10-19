@@ -1,6 +1,6 @@
 /* Responsividade do banner */
 
-@media screen and (min-width: 360px) and (max-width: 885px){
+@media screen and (min-width: 360px) and (max-width: 425px){
     header{
         text-align: center;
         
@@ -11,12 +11,14 @@
             background-image: url(../assets/equipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center top;
             backface-visibility: hidden;
+            background-attachment: fixed;
             
     
             & h1{
-                display: none;
+                font-size: 8vh;
+                padding-top: 10%;
             }
         }
     }
@@ -25,23 +27,25 @@
 
 
 
-@media screen and (min-width: 886px) and (max-width: 912px) {
+@media screen and (min-width: 426px) and (max-width: 460px){
     header{
         text-align: center;
         
     
         & .baner{
-            height: 32%;
+            height: 50%;
             width: 100%;
-            background-image: url(../assets/banerEquipe.jpg);
+            background-image: url(../assets/equipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center top;
             backface-visibility: hidden;
+            background-attachment: fixed;
             
     
             & h1{
-                display: none;
+                padding-top: 10%;
+                font-size: 8vh;
             }
         }
     }
@@ -50,7 +54,8 @@
 
 
 
-@media screen and (min-width: 912px){
+@media screen and (min-width: 461px){
+
     header{
         text-align: center;
         
@@ -61,13 +66,13 @@
             background-image: url(../assets/equipe.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center top;
             backface-visibility: hidden;
             background-attachment: fixed;
             
     
             & h1{
-                padding-top: 290px;
+                padding-top: 10%;
                 font-size: 8vh;
             }
         }
