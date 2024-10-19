@@ -149,7 +149,7 @@
         left: 0;
         top: 0;
         width: 55%;
-        height: 90vh;
+        height: 100vh;
         background-color: rgb(26, 26, 26);
         margin-left: -60%;
         transition: all ease .4s;
@@ -389,7 +389,7 @@
       left: 0;
       top: 0;
       width: 40%;
-      height: 85vh;
+      height: 100vh;
       background-color: rgb(26, 26, 26);
       margin-left: -60%;
       transition: all ease .4s;
@@ -483,7 +483,7 @@
         left: 0;
         top: 0;
         width: 30%;
-        height: 80vh;
+        height: 100vh;
         background-color: rgb(26, 26, 26);
         margin-left: -55%;
         transition: all ease .4s;
