@@ -11,6 +11,79 @@
     font-size: 2vh;
     overflow-x: hidden;
   }
+
+  /* Botão responsivo */
+
+  .menu{
+
+    & .menu-fakeTrigger{
+      position: absolute;
+      z-index: 1000;
+      width: 11%;
+      height: 90%;
+      margin-left: 2%;
+    }
+
+    & .linhas-menu{
+      position: absolute;
+      z-index: 999;
+      width: 11%;
+      height: 90%;
+      margin-left: 2%;
+  
+      & span{
+        display: block;
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        border-radius: 3px;
+        margin-top: 20%;
+        transition: all ease .4s;
+      }
+    }
+  }
+
+  .menu-fakeTrigger{
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.05);
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
+    opacity: 0;
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.05);
+  }
+
+  .menu ul{
+    display: block;
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 80vh;
+    background-color: rgb(26, 26, 26);
+    margin-left: -60%;
+    transition: all ease .4s;
+
+    & li{
+      margin-top: 32%;
+      margin-left: 8%;
+      list-style-type: none;
+    }
+  }
+
+  .menu .menu-fakeTrigger:checked ~ ul{
+    margin-left: 0;
+  }
+  
+  /* Botão responsivo */
   
   p, h1, h3 {
     padding-top: 2%;
@@ -23,19 +96,8 @@
   
       position: sticky;
       top: 0;
-  
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 3.5%;
-  
-      & li {
-        padding-top: 15px;
-      }
     }
-  }
+  
   
   a {
     color: white;
@@ -246,18 +308,6 @@
   
     position: sticky;
     top: 0;
-  
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 1.2%;
-  
-      & li {
-        padding-top: 9px;
-      }
-    }
   }
 }
 
@@ -276,6 +326,78 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2vh;
   }
+
+  /* Botão responsivo */
+  
+  .menu{
+    & .menu-fakeTrigger{
+      position: absolute;
+      z-index: 1000;
+      width: 3%;
+      height: 90%;
+      margin-left: 2%;
+    }
+
+    & .linhas-menu{
+      position: absolute;
+      z-index: 999;
+      width: 3%;
+      height: 90%;
+      margin-left: 2%;
+  
+      & span{
+        display: block;
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        border-radius: 3px;
+        margin-top: 20%;
+        transition: all ease .4s;
+      }
+    }
+  }
+
+  .menu-fakeTrigger{
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1);
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
+    opacity: 0;
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1);
+  }
+
+  .menu ul{
+    display: block;
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(26, 26, 26);
+    margin-left: -55%;
+    transition: all ease .4s;
+
+    & li{
+      margin-top: 20%;
+      margin-left: 8%;
+      list-style-type: none;
+    }
+  }
+
+  .menu .menu-fakeTrigger:checked ~ ul{
+    margin-left: 0;
+  }
+  
+  /* Botão responsivo */
   
   p, h1, h3 {
     padding-left: 2%;
@@ -287,18 +409,6 @@
   
       position: sticky;
       top: 0;
-  
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 1%;
-  
-      & li {
-        padding-top: 15px;
-      }
-    }
   }
   
   a {
@@ -505,18 +615,6 @@
   
       position: sticky;
       top: 0;
-  
-    & ul {
-      display: flex;
-      justify-content: space-between;
-      list-style-type: none;
-      align-items: center;
-      padding: 1.8%;
-  
-      & li {
-        padding-top: 15px;
-      }
-    }
   }
 
   .integrantes{
