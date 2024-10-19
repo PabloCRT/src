@@ -20,6 +20,7 @@ body{
       z-index: 1000;
       width: 11%;
       height: 90%;
+      margin-left: 2%;
     }
 
     & .linhas-menu{
@@ -59,12 +60,13 @@ body{
   }
 
   .menu ul{
+    display: block;
     position: absolute;
     z-index: 998;
     left: 0;
     top: 0;
     width: 55%;
-    height: 55vh;
+    height: 80vh;
     background-color: rgb(26, 26, 26);
     margin-left: -55%;
     transition: all ease .4s;
@@ -100,10 +102,9 @@ nav{
   }
 
   header{
-    height: 85%;
-    background-image: url(../assets/bombaDeSementes.png);
+    height: 70%;
+    background-image: url(../assets/bombaDeSementesResponsivo.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center top;
     background-attachment: fixed;
 
@@ -174,7 +175,7 @@ nav{
   
   .justificado {
     display: block;
-    scale: 1;
+    scale: 0.56;
     text-align: center;
 
     & li{
@@ -307,6 +308,7 @@ nav{
     }
   
     .menu ul{
+      display: block;
       position: absolute;
       z-index: 998;
       left: 0;
