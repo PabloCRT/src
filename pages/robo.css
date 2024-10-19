@@ -301,13 +301,95 @@
 
 
 
-@media(min-width: 1200px){
+@media screen and (min-width: 1200px) and (max-width: 1279) {
   nav {
     background-color: rgb(26, 26, 26);
     height: 8.3%;
   
     position: sticky;
     top: 0;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1280px) {
+  /* Botão responsivo */
+
+  .menu{
+
+    & .menu-fakeTrigger{
+      position: absolute;
+      z-index: 1000;
+      width: 11%;
+      height: 90%;
+      margin-left: 2%;
+    }
+
+    & .linhas-menu{
+      position: absolute;
+      z-index: 999;
+      width: 5%;
+      height: 90%;
+      margin-left: 2%;
+  
+      & span{
+        display: block;
+        width: 100%;
+        height: 10%;
+        background-color: white;
+        border-radius: 3px;
+        margin-top: 20%;
+        transition: all ease .4s;
+      }
+    }
+  }
+
+  .menu-fakeTrigger{
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(0.88);
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
+    opacity: 0;
+  }
+  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(0.88);
+  }
+
+  .menu ul{
+    display: block;
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 40%;
+    height: 85vh;
+    background-color: rgb(26, 26, 26);
+    margin-left: -60%;
+    transition: all ease .4s;
+
+    & li{
+      margin-top: 20%;
+      margin-left: 8%;
+      list-style-type: none;
+    }
+  }
+
+  .menu .menu-fakeTrigger:checked ~ ul{
+    margin-left: 0;
+  }
+  
+  /* Botão responsivo */
+
+  .justificado{
+    scale: 1;
   }
 }
 
