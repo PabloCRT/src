@@ -1,494 +1,129 @@
-@media screen and (min-width: 360px) and (max-width: 1899px) {
-*{
-  margin: 0;
-  padding: 0;
-}
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJETO</title>
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
 
-body{
-  background-color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  font-size: 2vh;
-}
+    <div class="container">
+            <nav class="menu">
+                <input type="checkbox" class="menu-fakeTrigger">
 
-  /* Botão responsivo */
+                <div class="linhas-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                
+                <ul>
+                    <li><a href="robo.html">SOBRE O ROBÔ</a></li>
 
-  .menu{
+                    <li><a href="../index.html">PÁGINA INICIAL</a></li>
 
-    & .menu-fakeTrigger{
-      position: absolute;
-      z-index: 1000;
-      width: 11%;
-      height: 90%;
-      margin-left: 2%;
-    }
+                    <li><a href="">TOPO</a></li>
 
-    & .linhas-menu{
-      position: absolute;
-      z-index: 999;
-      width: 11%;
-      height: 90%;
-      margin-left: 2%;
-  
-      & span{
-        display: block;
-        width: 100%;
-        height: 10%;
-        background-color: white;
-        border-radius: 3px;
-        margin-top: 20%;
-        transition: all ease .4s;
-      }
-    }
-  }
+                    <li><a href="membros.html">CONHEÇA-NOS</a></li>
 
-  .menu-fakeTrigger{
-    opacity: 0;
-    cursor: pointer;
-  }
-
-  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
-    transform-origin: 0% 0%;
-    transform: rotate(45deg) scaleX(1.05);
-  }
-  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
-    opacity: 0;
-  }
-  .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
-    transform-origin: 0% 100%;
-    transform: rotate(-45deg) scaleX(1.05);
-  }
-
-  .menu ul{
-    display: block;
-    position: absolute;
-    z-index: 998;
-    left: 0;
-    top: 0;
-    width: 55%;
-    height: 80vh;
-    background-color: rgb(26, 26, 26);
-    margin-left: -55%;
-    transition: all ease .4s;
-
-    & li{
-      margin-top: 32%;
-      margin-left: 8%;
-      list-style-type: none;
-    }
-  }
-
-  .menu .menu-fakeTrigger:checked ~ ul{
-    margin-left: 0;
-  }
-  
-  /* Botão responsivo */
-
-nav{
-  max-width: 100%;
-  background-color: rgb(26, 26, 26);
-  height: 8.3%;
-  position: sticky;
-  top: 0;
-  }
-
-  a{
-    color: white;
-    text-decoration: none;
-  }
-
-  a:hover{
-    color: #f5d276;
-  }
-
-  header{
-    height: 70%;
-    background-image: url(../assets/bombaDeSementesResponsivo.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-
-    & h1{
-      font-size: 480%;
-      text-align: center;
-      padding-top: 18%;
-    }
-  }
-
-  .texto1, .texto2, .texto3{
-    margin-top: 20%;
-    padding-top: 0.2%;
-    border-radius: 20px;
-    max-width: 90%;
-    margin-left: 5%;
-
-    & h3{
-      margin-top: 2%;
-      margin-left: 2%;
-    }
-
-    & p{
-      margin-top: 1%;
-      margin-left: 2%;
-    }
-  }
-
-  .texto1{
-    height: 50%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/projeto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-  .texto2{
-    height: 50%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/germinacao.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-  .texto3{
-    height: 50%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/fileiraDeBombas.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-
-
-  /* Parte dos integrantes (Faixa de nomes) */
-
-  .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 2%;
-    margin-top: 25%;
-    padding-bottom: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .justificado {
-    display: block;
-    scale: 0.56;
-    text-align: center;
-
-    & li{
-      list-style-type: none;
-    }
-  }
-  
-  .funcao {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    text-align: justify;
-  }
-  
-  .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-
-
-  /* Parte das redes sociais */
-
-
-  footer{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+                    <li><a href="ODS.html">SOBRE OS ODS</a></li>
+                </ul>
+            </nav>
     
-    & img{
-      height: 5vh;
-    }
+        <header>
+            <h1>Bombas de Semente</h1>
+        </header>
+        <br>
 
-    & a{
-      text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    }
-  }
-}
+        <section class="texto1">
+            <h3><u>Conheça o nosso projeto:</u></h3>
+            <p>
+                A temporada 2024 do TBR trouxe para a categoria HIGH a missão de proteger e restaurar 
+                ecossistemas relacionados à água, e o que poderia estar mais relacionado com água do que as árvores? 
+                O nosso projeto visa explorar formas de aprimorar o reflorestamento em mananciais, uma vez que as árvores 
+                impedem o assoreamento dos cursos d'água e ainda garantem o abastecimento dos lençóis freáticos. Com toda a 
+                importância das árvores em mente, surgiu o nosso produto: as Bombas de Sementes, uma alternativa eficaz, 
+                barata e totalmente ecológica.
+            </p>
+        </section>
+
+        <section class="texto2">
+            <h3>Como funciona? </h3>
+            <p>
+                A Bomba de Sementes pode representar uma alternativa ambientalmente sustentável e ecologicamente benéfica. 
+                Composta exclusivamente por terra, argila, húmus de minhoca e sementes, essa simples tecnologia preserva as 
+                sementes em estado de dormência até que encontrem condições propícias para germinar e se desenvolver como plantas.
+            </p>
+        </section>
+
+        <section class="texto3">
+            <h3>Resolução de problemas:</h3>
+            <p>
+                A problemática a ser abordada refere-se à necessidade de identificar soluções potenciais para as ações de reflorestamento 
+                em mananciais e ampliar seus benefícios para proteção de nascentes.
+            </p>
+        </section>
 
 
 
+        <section class="integrantes">
+            <div class="justificado">
+              <h2>integrantes</h2>
+              <br />
+              <br />
+              <div class="funcao">
+                <div class="Programadores">
+                  <h4>Programadores e Tecnologia</h4>
+                  <br />
+                  <li> Isabelly</li>
+                  <li> Otávio</li>
+                  <li> Pablo</li>
+                  <li> Vitor</li>
+                </div>
+    
+                <div class="Merito">
+                  <h4>Mérito Científico</h4>
+                  <br />
+                  <li>Lays</li>
+                  <li>Dagmar</li>
+                  <li>Isabella</li>
+                </div>
+    
+                <div class="Organizacao">
+                  <h4>Organização e Método</h4>
+                  <br />
+                  <li>Camila</li>
+                  <li>Gabi</li>
+                  <li>Maria</li>
+                </div>
+    
+                <div class="Tec">
+                  <h4>Técnico</h4>
+                  <br />
+                  <li>Sidney</li>
+                </div>
+    
+                <div class="Ment">
+                  <h4>Madrinha</h4>
+                  <br />
+                  <li>Lidiane</li>
+                </div>
+              </div>
+            </div>
+          </section>
+    
+          <!--Parte de divulgação das redes sociais da equipe (Instagram)-->
+          <footer class="centroRedeSocial">
+            <a href=" https://www.instagram.com/atena.tbr?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopenernoreferrer">
+              <img src="../assets/instagram.png" alt="" class="instagram">
+            </a>
+          </footer>
 
-@media screen and (min-width: 1900px) {
-  *{
-    margin: 0;
-    padding: 0;
-  }
-  
-  body{
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 2vh;
-  }
-  
-    /* Botão responsivo */
-  
-    .menu{
-      & .menu-fakeTrigger{
-        position: absolute;
-        z-index: 1000;
-        width: 3%;
-        height: 90%;
-        margin-left: 2%;
-      }
-  
-      & .linhas-menu{
-        position: absolute;
-        z-index: 999;
-        width: 3%;
-        height: 90%;
-        margin-left: 2%;
+
+          <span style="text-align: center;">
+            <p style="background-color: #8929a3b4;">&copy; | ATENA</p>
+          </span>
+    </div>
     
-        & span{
-          display: block;
-          width: 100%;
-          height: 10%;
-          background-color: white;
-          border-radius: 3px;
-          margin-top: 20%;
-          transition: all ease .4s;
-        }
-      }
-    }
-  
-    .menu-fakeTrigger{
-      opacity: 0;
-      cursor: pointer;
-    }
-  
-    .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
-      transform-origin: 0% 0%;
-      transform: rotate(45deg) scaleX(1);
-    }
-    .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
-      opacity: 0;
-    }
-    .menu .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
-      transform-origin: 0% 100%;
-      transform: rotate(-45deg) scaleX(1);
-    }
-  
-    .menu ul{
-      display: block;
-      position: absolute;
-      z-index: 998;
-      left: 0;
-      top: 0;
-      width: 30%;
-      height: 80vh;
-      background-color: rgb(26, 26, 26);
-      margin-left: -55%;
-      transition: all ease .4s;
-  
-      & li{
-        margin-top: 20%;
-        margin-left: 8%;
-        list-style-type: none;
-      }
-    }
-  
-    .menu .menu-fakeTrigger:checked ~ ul{
-      margin-left: 0;
-    }
-    
-    /* Botão responsivo */
-  
-  nav{
-    max-width: 100%;
-    background-color: rgb(26, 26, 26);
-    height: 8.3%;
-    position: sticky;
-    top: 0;
-    }
-  
-    a{
-      color: white;
-      text-decoration: none;
-    }
-  
-    a:hover{
-      color: #f5d276;
-    }
-  
-    header{
-      height: 85%;
-      background-image: url(../assets/bombaDeSementes.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center top;
-      background-attachment: fixed;
-  
-      & h1{
-        font-size: 480%;
-        text-align: center;
-        padding-top: 18%;
-      }
-    }
-  
-    .texto1, .texto2, .texto3{
-      margin-top: 20%;
-      padding-top: 0.2%;
-      border-radius: 20px;
-      max-width: 90%;
-      margin-left: 5%;
-  
-      & h3{
-        margin-top: 2%;
-        margin-left: 2%;
-      }
-  
-      & p{
-        margin-top: 1%;
-        margin-left: 2%;
-      }
-    }
-  
-    .texto1{
-      height: 50%;
-      background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/projeto.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-  
-    .texto2{
-      height: 50%;
-      background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/germinacao.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-  
-    .texto3{
-      height: 50%;
-      background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/fileiraDeBombas.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-  
-  
-    /* Parte dos integrantes (Faixa de nomes) */
-  
-    .integrantes {
-      background-color: rgb(23, 23, 23);
-      padding-top: 2%;
-      margin-top: 25%;
-      padding-bottom: 2%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .justificado {
-      display: block;
-      scale: 1;
-      text-align: center;
-  
-      & li{
-        list-style-type: none;
-      }
-    }
-    
-    .funcao {
-      display: flex;
-      justify-content: center;
-      justify-content: space-between;
-      text-align: justify;
-    }
-    
-    .programadores {
-      padding-right: 20px;
-      border-left: rgb(71, 71, 71) solid 3px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .merito {
-      padding-right: 20px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .organizacao {
-      padding-right: 20px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Tec {
-      padding-left: 20px;
-      padding-right: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Ment {
-      padding-left: 20px;
-      padding-right: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-  
-  
-  
-    /* Parte das redes sociais */
-  
-  
-    footer{
-      display: flex;
-      justify-content: center;
-      padding-bottom: 0;
-      background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-      
-      & img{
-        height: 5vh;
-      }
-  
-      & a{
-        text-align: center;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      }
-    }
-}
+</body>
+</html>
