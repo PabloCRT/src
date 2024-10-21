@@ -138,23 +138,21 @@
   }
   
   .texto2{
-    background-color: rgb(15, 15, 15);
-      border-radius: 20px;
-    
-      max-width: 90%;
-    
-      margin-left: 5%;
-      height: 45%;
-      padding-top: 0.1%;
-    
-      & p{
-        padding-left: 2%;
-      }
-    
-      & h3{
-        padding-top: 2%;
-        padding-left: 2%;
-      }
+    height: 30%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/lancamento2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    & p{
+      padding-left: 2%;
+    }
+
+    & h3{
+      padding-top: 2%;
+      padding-left: 2%;
+    }
   }
   
   .texto3{
