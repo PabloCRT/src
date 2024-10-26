@@ -105,6 +105,7 @@
     margin-left: 5%;
     height: 130%;
     padding-top: 0.1%;
+    padding-bottom: 15%;
   
     & p{
       padding-left: 2%;
@@ -118,6 +119,13 @@
       height: 50%;
       margin-top: 1%;
       border-radius: 20px;
+    }
+
+    & a{
+
+      & h2{
+        padding-top: 10%;
+      }
     }
   }
   
@@ -422,11 +430,10 @@
   .trocar {
     background-color: transparent;
     border: none;
-    color: #f5d276;
+    color: #8829a3;
   }
   .trocar:hover {
     cursor: pointer;
-    transform: scale(0.9);
   }
   
   .recado {
@@ -647,6 +654,17 @@
 
   .justificado{
     scale: 1.2;
+  }
+
+  .texto1{
+    height: 130vh;
+
+    & a{
+      
+      & h2{
+        padding-top: 2%;
+      }
+    }
   }
 
   .texto5{
