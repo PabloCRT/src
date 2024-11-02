@@ -138,12 +138,14 @@
   }
   
   .texto2{
-    height: 30%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(1, 1, 1, 0)), url(../assets/lancamento2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: rgb(15, 15, 15);
+      border-radius: 20px;
+    
+      max-width: 90%;
+    
+      margin-left: 5%;
+      height: 75%;
+      padding-top: 0.1%;
 
     & p{
       padding-left: 2%;
