@@ -250,6 +250,7 @@
   nav {
     background-color: rgb(26, 26, 26);
     height: 8.3%;
+    z-index: 1000;
   
     position: sticky;
     top: 0;
