@@ -117,6 +117,7 @@
           width: 9%;
           height: 90%;
           margin-left: 2%;
+          margin-top: 2%;
       
           & span{
             display: block;
