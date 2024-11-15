@@ -1,17 +1,22 @@
-var imgAtual = "assets/equipe.jpg";
-var imgPosterior = "assets/blusa.jpg";
+/* Parte do slide (INÍCIO) */
+let numeracao = 1;
 
-var imgAtual2 = "assets/timeAfilhados.jpg"
-var imgPosterior2 = "assets/time.jpg"
+document.getElementById('radio1').checked = true;
 
-function trocar() {
-    document.getElementById("primeiraImagem").src = imgAtual;
-    let aux = imgAtual;
-    imgAtual = imgPosterior;
-    imgPosterior = aux
+setInterval( function(){
+    proximaImagem();
+}, 2000)
 
-    document.getElementById("segundaImagem").src = imgAtual2
-    let aux2 = imgAtual2;
-    imgAtual2 = imgPosterior2
-    imgPosterior2 = aux2
+
+
+function proximaImagem(){
+    numeracao++
+    
+    if(numeracao > 3){
+        numeracao = 1;
+    }
+
+    document.getElementById('radio'+numeracao).checked = true;
+
 }
+/* Parte do slide (FIM) */ 
