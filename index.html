@@ -7,7 +7,7 @@
     <meta name="description" content="Conheça o projeto da equipe Atena (Time do TBR)." />
     <title>ATENA</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="index.js" defer></script>
+    <script src="index.js"></script>
   </head>
   <body>
     <!--Links para as páginas sobre outros assuntos-->
@@ -150,19 +150,36 @@
         <br />
         <br />
         <br />
-        <div class="slide">
-          <button onclick="trocar()" class="trocar">
-            <b>TROCAR IMAGENS</b>
-          </button>
-          
-          <div class="tudo">
-            <div class="slideEdit">
-              <img id="primeiraImagem" src="assets/equipe.jpg" class="img1" />
-            </div>
+        <div class="total-slide">
+          <div class="slider">
 
-            <div class="slideEdit2">
-              <img id="segundaImagem" src="assets/timeAfilhados.jpg" class="img2" />
+            <div class="slides">
+              <!-- Indicador de slide enumerado (INÍCIO) -->
+  
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+  
+              <!-- Indicador de slide enumerado (FIM) -->
+  
+              <!-- Imagens do slide (INÍCIO) -->
+               <div class="slide primeiro">
+                  <img src="assets/todosJuntos.jpg" alt="" id="img1">
+               </div>
+               <div class="slide">
+                <img src="assets/bandeira.jpg" alt="" id="img2">
+               </div>
+               <div class="slide">
+                <img src="assets/palco.JPG" alt="" id="img3">
+                <!-- Imagens do slide (FIM) -->
+               </div>
             </div>
+          </div>
+  
+          <div class="manual-navegacao">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
           </div>
         </div>
         <br />
