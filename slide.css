@@ -1,0 +1,49 @@
+.slider{
+    background-color: rgb(15, 15, 15);
+
+    width: 90%;
+    margin-left: 5%;
+    padding: 2% 0 2% 0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+/*--------------------------------------------------------------------------------------*/
+/* Imagem da seta de slide (INÍCIO) */
+.diminuir img{
+    transform: scale(-1);
+}
+/* Imagem da seta de slide (FIM) */
+/*--------------------------------------------------------------------------------------*/
+/* Estilização do slide (INÍCIO) */
+.slide img{
+    height: 50vh;
+    border-radius: 25px;
+    padding: 0 !important;
+    margin-left: -28%;
+}
+
+.slide{
+    width: 26.3%;
+    text-align: center;
+}
+
+.aumentar img, .diminuir img{
+    height: 100px;
+    margin-top: 228%;
+}
+
+.aumentar input, .diminuir input{
+    height: 100px;
+    width: 100px;
+    
+    position: absolute;
+    margin-top: 12%;
+
+    z-index: 1000;
+
+    opacity: 0;
+    cursor: pointer;
+}
+/* Estilização do slide (FIM) */
+/*--------------------------------------------------------------------------------------*/
