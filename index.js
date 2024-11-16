@@ -1,22 +1,36 @@
-/* Parte do slide (INÍCIO) */
-let numeracao = 1;
+function voltar() {
+    const imagem1 = document.getElementById('img1');
 
-document.getElementById('radio1').checked = true;
+    imagem1.onload = function() {
+        imagem1.src = 'assets/palco.jpg';
+    };
 
-setInterval( function(){
-    proximaImagem();
-}, 2000)
+    // Forçar o navegador a recarregar a imagem
+    imagem1.src = '';
+    imagem1.src = 'assets/palco.jpg';
 
+    document.getElementById('bola1').style.backgroundColor = "#8929a3b4"
+    document.getElementById('bola2').style.backgroundColor = "transparent"
 
+//-----------------------------------------------------------
 
-function proximaImagem(){
-    numeracao++
     
-    if(numeracao > 3){
-        numeracao = 1;
-    }
-
-    document.getElementById('radio'+numeracao).checked = true;
-
 }
-/* Parte do slide (FIM) */ 
+
+function avancar() {
+    const imagem2 = document.getElementById('img1');
+
+    imagem2.onload = function() {
+        imagem2.src = 'assets/bandeira.jpg';
+    };
+
+    // Forçar o navegador a recarregar a imagem
+    imagem2.src = '';
+    imagem2.src = 'assets/bandeira.jpg';
+
+    document.getElementById('bola2').style.backgroundColor = "#8929a3b4"
+    document.getElementById('bola1').style.backgroundColor = "transparent"
+
+//-----------------------------------------------------------
+}
+
