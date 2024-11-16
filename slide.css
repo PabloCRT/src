@@ -1,66 +1,152 @@
-.slider{
-    background-color: rgb(15, 15, 15);
-
-    width: 90%;
-    margin-left: 5%;
-    padding: 2% 0 2% 0;
-    border-radius: 25px;
-    display: flex;
-    justify-content: space-around;
-}
-/*--------------------------------------------------------------------------------------*/
-/* Imagem da seta de slide (INÍCIO) */
-.diminuir img{
-    transform: scale(-1);
-}
-/* Imagem da seta de slide (FIM) */
-/*--------------------------------------------------------------------------------------*/
-/* Estilização do slide (INÍCIO) */
-.slide img{
-    height: 50vh;
-    border-radius: 25px;
-    padding: 0 !important;
-    margin-left: -28%;
-}
-
-.slide{
-    width: 26.3%;
-    text-align: center;
-}
-
-.aumentar img, .diminuir img{
-    height: 100px;
-    margin-top: 228%;
-}
-
-.aumentar input, .diminuir input{
-    height: 100px;
-    width: 100px;
+@media screen and (min-width: 360px) {
+    .slider{
+        background-color: rgb(15, 15, 15);
     
-    position: absolute;
-    margin-top: 12%;
-
-    z-index: 1000;
-
-    opacity: 0;
-    cursor: pointer;
-}
-/* Estilização do slide (FIM) */
-/*--------------------------------------------------------------------------------------*/
-/* Entrada de dados input (INÍCIO) */
-.bola1{
-    background-color: #8929a3b4;
-}
-
-.slider .input1:checked ~ .slide{
-
-    & .bola1{
-        background-color: transparent;
+        width: 90%;
+        margin-left: 0.6%;
+        padding: 5% 0 9% 0;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-around;
+        scale: 0.9;
+    }
+    /*--------------------------------------------------------------------------------------*/
+    /* Imagem da seta de slide (INÍCIO) */
+    .diminuir img{
+        transform: scale(-1);
+    }
+    /* Imagem da seta de slide (FIM) */
+    /*--------------------------------------------------------------------------------------*/
+    /* Estilização do slide (INÍCIO) */
+    .slide img{
+        transform: scale(0.5);
+        border-radius: 25px;
+        padding: 0 !important;
+        margin-left: -270%;
+    }
+    
+    .slide{
+        width: 26.3%;
+        text-align: center;
     }
 
-    & .bola2{
+    .aumentar input, .aumentar img{
+        height: 20px;
+        margin-top: 988%;
+        margin-right: -400%;
+    }
+
+    .diminuir img{
+        height: 20px;
+        margin-top: 988%;
+        margin-left: -400%;
+    }
+
+    .diminuir input{
+        margin-left: -20%;
+    }
+    
+    .aumentar input, .diminuir input{
+        height: 20px;
+        width: 20px;
+        
+        position: absolute;
+        margin-top: 49.5%;
+    
+        z-index: 1000;
+    
+        opacity: 0;
+        cursor: pointer;
+    }
+    /* Estilização do slide (FIM) */
+    /*--------------------------------------------------------------------------------------*/
+    /* Entrada de dados input (INÍCIO) */
+    .bola1{
         background-color: #8929a3b4;
     }
+    
+    .slider .input1:checked ~ .slide{
+    
+        & .bola1{
+            background-color: transparent;
+        }
+    
+        & .bola2{
+            background-color: #8929a3b4;
+        }
+    }
+    /* Entrada de dados input (FIM) */
+    /*--------------------------------------------------------------------------------------*/
 }
-/* Entrada de dados input (FIM) */
-/*--------------------------------------------------------------------------------------*/
+
+
+
+
+@media screen and (min-width: 1900px){
+    .slider{
+        background-color: rgb(15, 15, 15);
+    
+        width: 90%;
+        margin-left: 5%;
+        padding: 2% 0 2% 0;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+    /*--------------------------------------------------------------------------------------*/
+    /* Imagem da seta de slide (INÍCIO) */
+    .diminuir img{
+        transform: scale(-1);
+    }
+    /* Imagem da seta de slide (FIM) */
+    /*--------------------------------------------------------------------------------------*/
+    /* Estilização do slide (INÍCIO) */
+    .slide img{
+        height: 50vh;
+        border-radius: 25px;
+        padding: 0 !important;
+        margin-left: -28%;
+    }
+    
+    .slide{
+        width: 26.3%;
+        text-align: center;
+    }
+    
+    .aumentar img, .diminuir img{
+        height: 100px;
+        margin-top: 228%;
+    }
+    
+    .aumentar input, .diminuir input{
+        height: 100px;
+        width: 100px;
+        
+        position: absolute;
+        margin-top: 12%;
+    
+        z-index: 1000;
+    
+        opacity: 0;
+        cursor: pointer;
+    }
+    /* Estilização do slide (FIM) */
+    /*--------------------------------------------------------------------------------------*/
+    /* Entrada de dados input (INÍCIO) */
+    .bola1{
+        background-color: #8929a3b4;
+    }
+    
+    .slider .input1:checked ~ .slide{
+    
+        & .bola1{
+            background-color: transparent;
+        }
+    
+        & .bola2{
+            background-color: #8929a3b4;
+        }
+    }
+    /* Entrada de dados input (FIM) */
+    /*--------------------------------------------------------------------------------------*/
+}
