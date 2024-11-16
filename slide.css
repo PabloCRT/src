@@ -47,3 +47,20 @@
 }
 /* Estilização do slide (FIM) */
 /*--------------------------------------------------------------------------------------*/
+/* Entrada de dados input (INÍCIO) */
+.bola1{
+    background-color: #8929a3b4;
+}
+
+.slider .input1:checked ~ .slide{
+
+    & .bola1{
+        background-color: transparent;
+    }
+
+    & .bola2{
+        background-color: #8929a3b4;
+    }
+}
+/* Entrada de dados input (FIM) */
+/*--------------------------------------------------------------------------------------*/
