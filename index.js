@@ -12,6 +12,13 @@ function voltar() {
     document.getElementById('bola1').style.backgroundColor = "#8929a3b4"
     document.getElementById('bola2').style.backgroundColor = "transparent"
 
+    //transições entre imagem e legenda
+
+    document.getElementById('bola1').style.transition = "1s"
+    document.getElementById('bola2').style.transition = "1s"
+
+    document.getElementById('img1').style.transition = "1s"
+
 //-----------------------------------------------------------
 
     
