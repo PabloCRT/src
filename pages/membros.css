@@ -257,6 +257,7 @@
 
     .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
         transform: scale(1.5);
+        transition: 1s;
     }
 
     .FaixaLoc{
@@ -599,12 +600,7 @@
         }
     
         & p{
-    
             margin-top: 10px;
-    
-            & u{
-                
-            }
         }
     
         & a{
@@ -617,6 +613,7 @@
 
     .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
         transform: scale(1.5);
+        transition: 1s;
     }
 
     .FaixaLoc{
