@@ -106,7 +106,7 @@
 /* -------------- Estruturação (INÍCIO) -------------- */
     .slider{
         background-color: rgb(15, 15, 15);
-        width: 90%;
+        max-width: 90%;
         margin-left: 5%;
         padding: 2% 0 2% 0;
         display: block;
