@@ -87,6 +87,7 @@
                 font-size: 4vh;
 
                 border: none;
+                cursor: pointer;
             }
 
             & .avancar{
