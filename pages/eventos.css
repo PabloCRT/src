@@ -1,325 +1,179 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTOS</title>
+    <link rel="stylesheet" href="eventos.css">
+</head>
+<body>
 
-body {
-    color: white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow-x: hidden;
-    font-size: 2vh;
-}
+    <main>
+        <!-- Barra de navegação (INÍCIO)------------------------------------------------->
+        <nav >
+            <input type="checkbox" class="menu-fakeTrigger">
+    
+            <div class="linhas-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            
+            <ul>
+                <li><a href="../index.html">PÁGINA INICIAL</a></li>
+                
+                <li><a href="robo.html">SOBRE O ROBÔ</a></li>
+    
+                <li><a href="projeto.html">NOSSO PROJETO</a></li>
+    
+                <li><a href="">TOPO</a></li>
+                
+                <li><a href="membros.html">CONHEÇA-NOS</a></li>
+    
+                <li><a href="ODS.html">SOBRE OS ODS</a></li>
+            </ul>
+        </nav>
+        <!-- Barra de navegação (FIM)------------------------------------------------->
 
-nav{
-    background-color: rgb(26, 26, 26);
-    height: 8.3vh;
-    margin-top: 0;
+        <!-- Logo e conteúdos da página (INÍCIO)------------------------------------------------->
+         <header>
+            <!--Imagem da logo-->
+            <img src="../assets/logoAtena.jpg" alt="">
+         </header>
 
-    position: sticky;
-    top: 0;
-}
+         <div class="textos" style="max-width: 100%;">
+            <h1 style="color: #8929a3b4; margin-left: 5%;">Eventos</h1>
 
-header{
-    text-align: center;
+            <div class="texto">
+                <h2><u>FEMIC</u></h2>
+                <h6>09/11/2024</h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
+                
+                <div class="complemento">
+                    <iframe src="https://www.youtube.com/embed/9l986J84zgs?si=xGNfdHjmT9EAJcL_" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="texto">
+                <h2><u>FEBRACE</u></h2>
+                <h6>16/10/2024</h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
+            </div>
+            <div class="texto">
+                <h2><u>ONG Inclusão sem fronteiras</u></h2>
+                <h6>09/10/2024</h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
 
-    & img{
-        height: 30vh;
-    }
-}
+                <div class="complemento">
+                    <img src="../assets/equipeOng.jpg" alt="">
+                </div>
+            </div>
+            <div class="texto">
+                <h2><u>SIA</u></h2>
+                <h6>30/10/2024</h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
+            </div>
+            <div class="texto">
+                <h2><u>TBR</u></h2>
+                <h6>2023 e 2024</h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
 
-.textos{
+                <div class="complemento">
+                    <img src="../assets/timeAfilhados.jpg" alt="">
+                </div>
+            </div>
+            <div class="texto">
+                <h2><u></u></h2>
+                <h6></h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
+            </div>
+            <div class="texto">
+                <h2><u></u></h2>
+                <h6></h6>
+                <br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cum ad maiores esse cupiditate velit voluptatibus voluptas 
+                    enim recusandae minima officiis nostrum aspernatur ullam magni, 
+                    et commodi cumque accusamus consequuntur sequi!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Officiis facere odio aliquam totam voluptatibus blanditiis 
+                    dolorem ullam, illo deserunt, soluta consequatur repellendus 
+                    quas corporis non dolor dolores vel! Rerum, eius!
+                </p>
+            </div>
+         </div>
+        <!-- Logo e conteúdos da página (FIM)------------------------------------------------->
 
-    & .texto{
-        background-color: rgb(26, 26, 26);
-        border-radius: 25px;
-        max-width: 90%;
-        margin-left: 5%;
-        padding: 2% 0 2% 0;
-        margin-top: 2%;
+        <!-- Rodapé "espaço" (INÍCIO)------------------------------------------------->
+         <footer style="height: 10vh; max-width: 100%;">
+            <!-- Espaço CSS-inline-->
+         </footer>
+        <!-- Rodapé "espaço" (FIM)------------------------------------------------->
+    </main>
 
-        & h6, p{
-            margin-left: 2%;
-            margin-right: 2%;
-            text-align: justify;
-        }
-
-        & h2{
-            margin-left: 2%;
-        }
-    }
-}
-
-
-
-
-@media screen and (min-width: 360px) {
-    /* Botão responsivo */
-
-    nav{
-
-        & .menu-fakeTrigger{
-          position: absolute;
-          z-index: 1000;
-          width: 11%;
-          height: 90%;
-          margin-left: 2%;
-        }
     
-        & .linhas-menu{
-          position: absolute;
-          z-index: 999;
-          width: 11%;
-          height: 90%;
-          margin-left: 2%;
-      
-          & span{
-            display: block;
-            width: 100%;
-            height: 10%;
-            background-color: white;
-            border-radius: 3px;
-            margin-top: 20%;
-            transition: all ease .4s;
-          }
-        }
-      }
     
-      .menu-fakeTrigger{
-        opacity: 0;
-        cursor: pointer;
-      }
-    
-      nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
-        transform-origin: 0% 0%;
-        transform: rotate(45deg) scaleX(1.05);
-      }
-      .nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
-        opacity: 0;
-      }
-      nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
-        transform-origin: 0% 100%;
-        transform: rotate(-45deg) scaleX(1.05);
-      }
-    
-      nav ul{
-        display: block;
-        position: absolute;
-        z-index: 998;
-        left: 0;
-        top: 0;
-        width: 55%;
-        height: 100vh;
-        background-color: rgb(26, 26, 26);
-        margin-left: -60%;
-        transition: all ease .4s;
-    
-        & li{
-          margin-top: 32%;
-          margin-left: 8%;
-          list-style-type: none;
-        }
-      }
-    
-      nav .menu-fakeTrigger:checked ~ ul{
-        margin-left: 0;
-      }
-      
-      /* Botão responsivo */
-
-    .complemento{
-        max-width: 100%;
-        padding: 5% 0 5% 0;
-    
-        text-align: center;
-    
-        & iframe{
-            border-radius: 25px;
-        }
-    
-        & img{
-            height: 20vh;
-            border-radius: 25px;
-        }
-    }
-    
-    .complemento iframe:hover, .complemento img:hover{
-        scale: 2;
-        transition: .5s;
-    }
-}
-
-
-
-
-@media screen and (min-width: 1280px) {
-    /* Botão responsivo */
-  
-    nav{
-  
-      & .menu-fakeTrigger{
-        position: absolute;
-        z-index: 1000;
-        width: 11%;
-        height: 90%;
-        margin-left: 2%;
-      }
-  
-      & .linhas-menu{
-        position: absolute;
-        z-index: 999;
-        width: 5%;
-        height: 90%;
-        margin-left: 2%;
-    
-        & span{
-          display: block;
-          width: 100%;
-          height: 10%;
-          background-color: white;
-          border-radius: 3px;
-          margin-top: 20%;
-          transition: all ease .4s;
-        }
-      }
-    }
-  
-    .menu-fakeTrigger{
-      opacity: 0;
-      cursor: pointer;
-    }
-  
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
-      transform-origin: 0% 0%;
-      transform: rotate(45deg) scaleX(0.88);
-    }
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
-      opacity: 0;
-    }
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
-      transform-origin: 0% 100%;
-      transform: rotate(-45deg) scaleX(0.88);
-    }
-  
-    nav ul{
-      display: block;
-      position: absolute;
-      z-index: 998;
-      left: 0;
-      top: 0;
-      width: 40%;
-      height: 100vh;
-      background-color: rgb(26, 26, 26);
-      margin-left: -60%;
-      transition: all ease .4s;
-  
-      & li{
-        margin-top: 20%;
-        margin-left: 8%;
-        list-style-type: none;
-      }
-    }
-  
-    nav .menu-fakeTrigger:checked ~ ul{
-      margin-left: 0;
-    }
-    
-    /* Botão responsivo */
-  }
-
-
-
-
-@media screen and (min-width: 1900px) {
-    nav{
-        & .menu-fakeTrigger{
-            position: absolute;
-            z-index: 1000;
-            width: 3%;
-            height: 90%;
-            margin-left: 2%;
-            opacity: 0;
-            cursor: pointer;
-        }
-    
-        & .linhas-menu{
-            position: absolute;
-            z-index: 999;
-            width: 3%;
-            height: 90%;
-            margin-left: 2%;
-    
-            & span{
-                display: block;
-                width: 100%;
-                height: 10%;
-                background-color: white;
-                border-radius: 3px;
-                margin-top: 20%;
-                transition: all ease .4s;
-            }
-        }
-    }
-    
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
-        transform-origin: 0% 0%;
-        transform: rotate(45deg) scale(1);
-    }
-    
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
-        opacity: 0;
-    }
-    
-    nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
-        transform-origin: 0% 100%;
-        transform: rotate(-45deg) scale(1);
-    }
-    
-    nav .menu-fakeTrigger:checked ~ ul{
-        margin-left: 0;
-    }
-    
-    nav ul{
-        position: absolute;
-        z-index: 998;
-        left: 0;
-        top: 0;
-        width: 30%;
-        height: 100vh;
-        background-color: rgb(26, 26, 26);
-        margin-left: -55%;
-        transition: all ease .4s;
-    
-        & li{
-            margin-top: 20%;
-            margin-left: 8%;
-            list-style-type: none;
-    
-            & a{
-                text-decoration: none;
-                color: white;
-            }
-        }
-    }
-
-    .complemento{
-        width: 100%;
-        padding: 2% 0 2% 0;
-    
-        text-align: center;
-    
-        & iframe{
-            border-radius: 25px;
-        }
-    
-        & img{
-            height: 20vh;
-            border-radius: 25px;
-        }
-    }
-    
-    .complemento iframe:hover, .complemento img:hover{
-        scale: 2;
-        transition: .5s;
-    }
-}
+</body>
+</html>
