@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    font-size: 2vh;
+}
+
+nav{
+    background-color: rgb(26, 26, 26);
+    height: 8.3vh;
+    margin-top: 0;
+
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    & .menu-fakeTrigger{
+        position: absolute;
+        z-index: 1000;
+        width: 3%;
+        height: 90%;
+        margin-left: 2%;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    & .linhas-menu{
+        position: absolute;
+        z-index: 999;
+        width: 3%;
+        height: 90%;
+        margin-left: 2%;
+
+        & span{
+            display: block;
+            width: 100%;
+            height: 10%;
+            background-color: white;
+            border-radius: 3px;
+            margin-top: 20%;
+            transition: all ease .4s;
+        }
+    }
+}
+
+nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scale(1);
+}
+
+nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(2){
+    opacity: 0;
+}
+
+nav .menu-fakeTrigger:checked ~ .linhas-menu span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scale(1);
+}
+
+nav .menu-fakeTrigger:checked ~ ul{
+    margin-left: 0;
+}
+
+nav ul{
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    margin-left: -55%;
+    transition: all ease .4s;
+
+    & li{
+        margin-top: 20%;
+        margin-left: 8%;
+        list-style-type: none;
+
+        & a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+header{
+    text-align: center;
+
+    & img{
+        height: 30vh;
+    }
+}
+
+.textos{
+
+    & .texto{
+        background-color: rgb(26, 26, 26);
+        border-radius: 25px;
+        max-width: 90%;
+        margin-left: 5%;
+        padding: 2% 0 2% 0;
+        margin-top: 2%;
+
+        & h6, p{
+            margin-left: 2%;
+            margin-right: 2%;
+            text-align: justify;
+        }
+
+        & h2{
+            margin-left: 2%;
+        }
+    }
+}
+
+
+
+
+@media screen and (min-width: 360px) {
+    .complemento{
+        max-width: 100%;
+        padding: 5% 0 5% 0;
+    
+        text-align: center;
+    
+        & iframe{
+            border-radius: 25px;
+        }
+    
+        & img{
+            height: 20vh;
+            border-radius: 25px;
+        }
+    }
+    
+    .complemento iframe:hover, .complemento img:hover{
+        scale: 2;
+        transition: .5s;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1900px) {
+    .complemento{
+        width: 100%;
+        padding: 2% 0 2% 0;
+    
+        text-align: center;
+    
+        & iframe{
+            border-radius: 25px;
+        }
+    
+        & img{
+            height: 20vh;
+            border-radius: 25px;
+        }
+    }
+    
+    .complemento iframe:hover, .complemento img:hover{
+        scale: 2;
+        transition: .5s;
+    }
+}
