@@ -180,6 +180,10 @@
         padding-left: 2%;
       }
   }
+
+  .img-prog{
+    scale: 0.6;
+  }
   
   footer img {
     width: 40px;
@@ -393,6 +397,10 @@
   /* Botão responsivo */
 
   .justificado{
+    scale: 1;
+  }
+
+  .img-prog{
     scale: 1;
   }
 }
