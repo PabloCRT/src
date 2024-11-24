@@ -110,6 +110,37 @@
     header img {
     height: 30%;
     }
+
+    h1{
+      margin-left: 5%;
+    }
+
+    .texto{
+      background-color: rgb(26, 26, 26);
+      border-radius: 25px;
+      max-width: 90%;
+      margin-left: 5%;
+      padding: 5% 0 5% 0;
+
+      & h3{
+        margin-left: 2%;
+      }
+
+      & p{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+      }
+
+      & h6{
+        margin-left: 2%;
+      }
+
+      & img{
+        margin-top: 2%;
+        border-radius: 25px;
+      }
+    }
     
     .center {
     text-align: center;
