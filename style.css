@@ -88,106 +88,41 @@
   .container{
     overflow-x: hidden;
   }
-  
-  p,
-  h1,
-  h3 {
-    margin-top: 2%;
-    margin-left: 6.8%;
-  }
-  
-  .texto1{
+
+  .texto{
     background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-  
     max-width: 90%;
-  
     margin-left: 5%;
-    height: 130%;
-    padding-top: 0.1%;
-    padding-bottom: 15%;
-  
-    & p{
-      padding-left: 2%;
-    }
+    border-radius: 25px;
+    padding: 5% 0 5% 0;
+    margin-top: 10%;
   
     & h3{
-      padding-left: 2%;
+      margin-left: 5%;
+    }
+  
+    & p{
+      margin-left: 5%;
+      text-align: justify;
+    }
+  
+    & li{
+      margin-left: 5%;
+      list-style-type: none;
+    }
+  
+    & .centroEquipe{
+      text-align: center;
+    }
+  
+    & h2{
+      margin-top: 2%;
     }
   
     & img{
       height: 50%;
-      margin-top: 1%;
-      border-radius: 20px;
-    }
-
-    & a{
-
-      & h2{
-        padding-top: 10%;
-      }
-    }
-  }
-  
-  .centroEquipe{
-   text-align: center;
-  }
-  
-  .texto2{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 55%;
-  
-    & p{
-      padding-left: 2%;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
-    }
-  }
-  
-  .texto3{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 55%;
-  
-    & p{
-      padding-left: 2%;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
-    }
-  }
-  
-  .texto4{
-    background-color: rgb(15, 15, 15);
-    border-radius: 20px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 30%;
-  
-    & ul li{
-      padding-left: 8.9%;
-      list-style-type: none;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
+      margin-top: 2%;
+      border-radius: 25px;
     }
   }
   
@@ -393,21 +328,6 @@
 
 
 
-/* Slide */
-@media screen and (min-width: 360px) and (max-width: 649px) {
-
-  
-  
-}
-
-
-
-@media screen and (min-width: 650px) {
-
-}
-/* Slide */
-
-
 
 @media(max-width: 620px){
   nav {
@@ -506,14 +426,6 @@
   
     position: sticky;
     top: 0;
-  }
-
-  .texto1{
-    height: 130%;
-
-    & img{
-      height: 40%;
-    }
   }
 }
 
@@ -689,19 +601,41 @@
     scale: 1.2;
   }
 
-  .texto1{
-    height: 130vh;
-
-    & a{
-      
-      & h2{
-        padding-top: 2%;
-      }
+  .texto{
+    background-color: rgb(15, 15, 15);
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    padding: 2% 0 2% 0;
+    margin-top: 2%;
+  
+    & h3{
+      margin-left: 2%;
     }
-  }
-
-  .texto4{
-    padding-bottom: 2%;
+  
+    & p{
+      margin-left: 2%;
+      text-align: justify;
+    }
+  
+    & li{
+      margin-left: 2%;
+      list-style-type: none;
+    }
+  
+    & .centroEquipe{
+      text-align: center;
+    }
+  
+    & h2{
+      margin-top: 2%;
+    }
+  
+    & img{
+      height: 50%;
+      margin-top: 2%;
+      border-radius: 25px;
+    }
   }
 
   .texto5{
@@ -783,94 +717,6 @@
   h3 {
     margin-top: 2%;
     margin-left: 6.8%;
-  }
-  
-  .texto1{
-    background-color: rgb(15, 15, 15);
-    border-radius: 50px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 90%;
-    padding-top: 0.1%;
-  
-    & p{
-      padding-left: 2%;
-    }
-  
-    & h3{
-      padding-top: 3%;
-      padding-left: 2%;
-    }
-  
-    & img{
-      height: 50%;
-      margin-top: 2%;
-      border-radius: 20px;
-    }
-  }
-  
-  .centroEquipe{
-   text-align: center;
-  }
-  
-  .texto2{
-    background-color: rgb(15, 15, 15);
-    border-radius: 50px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 30%;
-  
-    & p{
-      padding-left: 2%;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
-    }
-  }
-  
-  .texto3{
-    background-color: rgb(15, 15, 15);
-    border-radius: 50px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 30%;
-  
-    & p{
-      padding-left: 2%;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
-    }
-  }
-  
-  .texto4{
-    background-color: rgb(15, 15, 15);
-    border-radius: 50px;
-  
-    max-width: 90%;
-  
-    margin-left: 5%;
-    height: 30%;
-  
-    & ul li{
-      padding-left: 8.9%;
-      list-style-type: none;
-    }
-  
-    & h3{
-      padding-top: 2%;
-      padding-left: 2%;
-    }
   }
   
   .texto5{
@@ -1137,17 +983,6 @@
 
   .container{
     overflow-x: hidden;
-  }
-
-  .texto1{
-
-    & img{
-      border-radius: 80px;
-    }
-  }
-
-  .texto1, .texto2, .texto3, .texto4, .texto5{
-    border-radius: 80px;
   }
 
   .centroRedeSocial{
