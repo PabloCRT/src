@@ -97,57 +97,6 @@
       top: 0;
       }
     
-      .texto1{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 220%;
-        padding-top: 0.1%;
-      }
-    
-      .texto2{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 65%;
-        padding-top: 0.1%;
-    
-        & .recurso6{
-          text-align: center;
-          display: block;
-    
-          & img{
-            padding-top: 2%;
-          }
-    
-          
-        }
-      }
-    
-      .texto3{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 45%;
-        padding-top: 0.1%;
-      }
-    
-    
-    
-    p, h1, h3, h6 {
-      padding-left: 2%;
-      padding-top: 2%;
-    }
-    
     a {
     color: white;
     text-decoration: none;
@@ -345,57 +294,6 @@
       position: sticky;
       top: 0;
       }
-    
-      .texto1{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 75%;
-        padding-top: 0.1%;
-      }
-    
-      .texto2{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 55%;
-        padding-top: 0.1%;
-    
-        & .recurso6{
-          text-align: center;
-          display: block;
-    
-          & img{
-            padding-top: 2%;
-          }
-    
-          
-        }
-      }
-    
-      .texto3{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 40%;
-        padding-top: 0.1%;
-      }
-    
-    
-    
-    p, h1, h3, h6 {
-      padding-left: 2%;
-      padding-top: 2%;
-    }
     
     a {
     color: white;
@@ -748,58 +646,6 @@
       top: 0;
       }
     
-    
-      .texto1{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 65%;
-        padding-top: 0.1%;
-      }
-    
-      .texto2{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 50%;
-        padding-top: 0.1%;
-    
-        & .recurso6{
-          text-align: center;
-          display: block;
-    
-          & img{
-            padding-top: 2%;
-          }
-    
-          
-        }
-      }
-    
-      .texto3{
-        background-color: rgb(26, 26, 26);
-        border-radius: 20px;
-      
-        max-width: 90%;
-      
-        margin-left: 5%;
-        height: 30%;
-        padding-top: 0.1%;
-      }
-    
-    
-    
-    p, h1, h3, h6 {
-      padding-left: 2%;
-      padding-top: 2%;
-    }
-    
     a {
     color: white;
     text-decoration: none;
@@ -812,6 +658,37 @@
     
     header img {
     height: 30%;
+    }
+
+    h1{
+      margin-left: 5%;
+    }
+
+    .texto{
+      background-color: rgb(26, 26, 26);
+      border-radius: 25px;
+      max-width: 90%;
+      margin-left: 5%;
+      padding: 2% 0 2% 0;
+
+      & h3{
+        margin-left: 2%;
+      }
+
+      & p{
+        margin-left: 2%;
+        margin-right: 2%;
+        text-align: justify;
+      }
+
+      & h6{
+        margin-left: 2%;
+      }
+
+      & img{
+        margin-top: 2%;
+        border-radius: 25px;
+      }
     }
     
     .center {
@@ -979,14 +856,6 @@
     }
   }
 
-  .texto2{
-    height: 65%;
-
-    & img{
-      height: 50%;
-    }
-  }
-
   
 }
 
@@ -1004,15 +873,6 @@
       height: 500px;
     }
   }
-
-  .texto2{
-
-    height: 60%;
-
-    & img{
-      height: 50%;
-    }
-  }
 }
 
 
@@ -1023,21 +883,10 @@
     font-size: 2vh;
   }
 
-  .texto1, .texto2, .texto3{
-    border-radius: 60px;
-  }
-
   .ods{
 
     & img{
       height: 800px;
-    }
-  }
-
-  .texto2{
-
-    & img{
-      height: 50%;
     }
   }
 
