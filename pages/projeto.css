@@ -142,19 +142,21 @@ nav{
 
   .texto1, .texto2, .texto3{
     margin-top: 20%;
-    padding-top: 0.2%;
+    padding: 2% 0 2% 0;
     border-radius: 20px;
     max-width: 90%;
     margin-left: 5%;
 
     & h3{
       margin-top: 2%;
-      margin-left: 2%;
+      margin-left: 5%;
     }
 
     & p{
       margin-top: 1%;
-      margin-left: 2%;
+      margin: 5% 5%;
+
+      text-align: justify;
     }
   }
 
