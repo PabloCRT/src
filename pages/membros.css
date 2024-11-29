@@ -215,8 +215,8 @@
         margin-left: 20%;
     }
     
-    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
-        height: 80%;
+    .caixa{
+        padding: 2% 2% 2% 2%;
         background-color: rgb(26, 26, 26);
     
         margin-left: 5%;
@@ -239,12 +239,7 @@
         }
     
         & p{
-    
             margin-top: 10px;
-    
-            & u{
-                
-            }
         }
     
         & a{
@@ -255,7 +250,7 @@
         }
     }
 
-    .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
+    .caixa img:hover{
         transform: scale(1.5);
         transition: 1s;
     }
@@ -575,7 +570,7 @@
         display: flex;
     }
     
-    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+    .caixa{
         height: 520px;
         width: 15%;
         background-color: rgb(26, 26, 26);
@@ -611,7 +606,7 @@
         }
     }
 
-    .caixa1 img:hover, .caixa2 img:hover, .caixa3 img:hover, .caixa4 img:hover, .caixa5 img:hover, .caixa6 img:hover, .caixa7 img:hover, .caixa8 img:hover, .caixa9 img:hover, .caixa10 img:hover, .caixa11 img:hover, .caixa12 img:hover{
+    .caixa img:hover{
         transform: scale(1.5);
         transition: 1s;
     }
@@ -739,7 +734,7 @@
         align-items: center;
       }
 
-      .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+      .caixa{
         height: 820px;
         width: 15%;
         background-color: rgb(26, 26, 26);
@@ -792,7 +787,7 @@
 
 
 @media screen and (min-width: 5000px) and (max-width: 7499px){
-    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+    .caixa{
         height: 1420px;
         width: 15%;
         background-color: rgb(26, 26, 26);
@@ -907,7 +902,7 @@
         height: 5%;
     }
 
-    .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7, .caixa8, .caixa9, .caixa10, .caixa11, .caixa12{
+    .caixa{
         height: 70%;
         background-color: rgb(26, 26, 26);
     
