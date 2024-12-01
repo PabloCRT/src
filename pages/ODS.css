@@ -122,8 +122,13 @@
       margin-left: 5%;
       padding: 5% 0 5% 0;
 
+      & .titleResponsive{
+        scale: 0.9;
+        margin-left: -1.2%;
+      }
+
       & h3{
-        margin-left: 2%;
+        margin-left: 5%;
       }
 
       & p{
@@ -214,7 +219,7 @@
     
     .justificado {
       display: block;
-      scale: 0.56;
+      scale: 0.54;
     }
     
     .justificado li {
@@ -384,6 +389,14 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-right: 50px;
+    }
+
+    .texto{
+      
+      & .titleResponsive{
+        margin-left: 2%;
+        scale: 1;
+      }
     }
     
     h3 {
