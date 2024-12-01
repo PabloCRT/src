@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" id="corpo">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVENTOS</title>
     <link rel="stylesheet" href="eventos.css">
     <link rel="stylesheet" href="nav.css">
+    <script src="nav.js"></script>
 </head>
 <body>
 
@@ -27,7 +27,7 @@
     
                 <li><a href="projeto.html">NOSSO PROJETO</a></li>
     
-                <li><a href="">TOPO</a></li>
+                <li><a href="#cabeca" onclick="scrollToHeader('cabeca')">TOPO</a></li>
                 
                 <li><a href="membros.html">CONHEÇA-NOS</a></li>
     
@@ -39,7 +39,7 @@
         <!-- Logo e conteúdos da página (INÍCIO)------------------------------------------------->
          <header>
             <!--Imagem da logo-->
-            <img src="../assets/logoAtena.jpg" alt="">
+            <img src="../assets/logoAtena.jpg" alt="" id="cabeca">
          </header>
 
          <div class="textos" style="max-width: 100%;">
