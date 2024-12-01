@@ -107,14 +107,27 @@
   /*--------------------------------------------- Textos ---------------------------------------------*/
 .texto{
   padding: 2% 0 5% 0;
-  margin-top: 2%;
+  margin-top: 10%;
   max-width: 90%;
   margin-left: 5%;
   border-radius: 25px;
   background-color: rgb(26, 26, 26);
+  text-align: center;
+
+  & a button{
+    position: relative;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5%;
+    font-size: 2vh;
+    cursor: pointer;
+  }
 
   & p{
     text-align: justify;
+    margin: 4%;
   }
 }
 /*--------------------------------------------- Textos ---------------------------------------------*/
@@ -131,6 +144,13 @@
       width: 100%;
     }
   }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
+  }
   
   footer img {
     width: 40px;
@@ -141,115 +161,12 @@
     padding-top: 10px;
   }
   
-  footer {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 0;
-    background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
-  }
-  
   .centroRedeSocial{
     
     & img{
       height: 5vh;
       width: 5vh;
     }
-  }
-  
-  footer a {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-  
-  /*  */
-  
-  a:hover {
-    color: #f5d276;
-  }
-  
-  section p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding-right: 50px;
-  }
-  
-  h3 {
-    width: 500px;
-    margin-top: 20px;
-  }
-  
-  h3:hover {
-    color: #f5d276;
-  }
-  
-  h1 {
-    color: #8829a3;
-  }
-  
-  /* Integrantes */
-  
-  .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .justificado {
-    display: block;
-    scale: 0.56;
-  }
-  
-  .justificado li {
-    list-style-type: none;
-  }
-  
-  .funcao {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .funcao {
-    justify-content: space-between;
-  }
-  
-  .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  h2 {
-    text-align: center;
   }
 }
 
@@ -350,6 +267,49 @@
   .img-prog{
     scale: 1;
   }
+
+  .texto{
+    padding: 2% 0 5% 0;
+    margin-top: 10%;
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+  
+    & a button{
+      position: relative;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      padding: 1%;
+      font-size: 2vh;
+      cursor: pointer;
+    }
+
+    & p{
+      text-align: center;
+    }
+  }
+
+  @keyframes botao {
+    0%{
+      border: solid 2px #8929a338;
+    }
+
+    50%{
+      border: solid 2px #8929a380;
+    }
+
+    100%{
+      border: solid 2px #8929a3;
+    }
+  }
+
+  .texto a button:hover{
+    animation: botao 1s linear forwards;
+  }
 }
 
 
@@ -440,14 +400,6 @@
   
   /* Botão responsivo */
   
-  p, h3 {
-    padding-left: 2%;
-  }
-
-  p{
-    margin-top: 2%;
-  }
-  
   nav {
     background-color: rgb(26, 26, 26);
     height: 8.3%;
@@ -474,10 +426,7 @@
   margin-left: 5%;
   border-radius: 25px;
   background-color: rgb(26, 26, 26);
-
-  & p{
-    text-align: justify;
-  }
+  text-align: center;
 }
 /*--------------------------------------------- Textos ---------------------------------------------*/
 
@@ -511,25 +460,10 @@
     padding-bottom: 5%;
   }
   
-  /*  */
-  
-  a:hover {
-    color: #f5d276;
-  }
-  
   section p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     padding-right: 50px;
-  }
-  
-  h3 {
-    width: 500px;
-    margin-top: 20px;
-  }
-  
-  h3:hover {
-    color: #f5d276;
   }
   
   h1 {
@@ -595,10 +529,6 @@
     padding-left: 20px;
     padding-right: 20px;
     border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  h2 {
-    text-align: center;
   }
 }
 
