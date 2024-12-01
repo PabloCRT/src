@@ -1,4 +1,4 @@
-<html lang="pt-br">
+<html lang="pt-br" id="corpo">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,8 +8,8 @@
     <title>APRESENTAÇÃO</title>
     <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="pages/nav.css">
     <script src="index.js"></script>
+    <script src="pages/nav.js"></script>
   </head>
   <body>
     <!--Links para as páginas sobre outros assuntos (INÍCIO) -->
@@ -28,7 +28,7 @@
 
             <li><a href="pages/projeto.html">NOSSO PROJETO</a></li>
 
-            <li><a href="">TOPO</a></li>
+            <li><a href="#cabeca" onclick="scrollToHeader('cabeca')">TOPO</a></li>
             
             <li><a href="pages/membros.html">CONHEÇA-NOS</a></li>
 
@@ -39,10 +39,10 @@
     </nav>
     <!--Links para as páginas sobre outros assuntos (FIM) -->
 
-      <header>
+      <header id="cabeca">
         <!-- Imagem da logo -->
         <div class="center">
-          <img src="assets/logoAtena.jpg" alt="" />
+          <img src="assets/logoAtena.jpg" alt="">
         </div>
       </header>
 
