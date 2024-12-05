@@ -187,69 +187,6 @@ nav{
     background-attachment: fixed;
   }
 
-
-  /* Parte dos integrantes (Faixa de nomes) */
-
-  .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 2%;
-    margin-top: 25%;
-    padding-bottom: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .justificado {
-    display: block;
-    scale: 0.56;
-    text-align: center;
-
-    & li{
-      list-style-type: none;
-    }
-  }
-  
-  .funcao {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    text-align: justify;
-  }
-  
-  .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-  
-  .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-  }
-
-
-
   /* Parte das redes sociais */
 
 
@@ -519,73 +456,8 @@ nav{
       background-position: center;
       background-attachment: fixed;
     }
-  
-  
-    /* Parte dos integrantes (Faixa de nomes) */
-  
-    .integrantes {
-      background-color: rgb(23, 23, 23);
-      padding-top: 2%;
-      margin-top: 25%;
-      padding-bottom: 2%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .justificado {
-      display: block;
-      scale: 1;
-      text-align: center;
-  
-      & li{
-        list-style-type: none;
-      }
-    }
-    
-    .funcao {
-      display: flex;
-      justify-content: center;
-      justify-content: space-between;
-      text-align: justify;
-    }
-    
-    .programadores {
-      padding-right: 20px;
-      border-left: rgb(71, 71, 71) solid 3px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .merito {
-      padding-right: 20px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .organizacao {
-      padding-right: 20px;
-      padding-left: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Tec {
-      padding-left: 20px;
-      padding-right: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Ment {
-      padding-left: 20px;
-      padding-right: 20px;
-      border-right: rgb(71, 71, 71) solid 3px;
-    }
-  
-  
-  
+
     /* Parte das redes sociais */
-  
-  
     footer{
       display: flex;
       justify-content: center;
