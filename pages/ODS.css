@@ -206,67 +206,6 @@
     color: #8829a3;
     }
     
-    /* Integrantes */
-    
-    .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    }
-    
-    .justificado {
-      display: block;
-      scale: 0.54;
-    }
-    
-    .justificado li {
-    list-style-type: none;
-    }
-    
-    .funcao {
-    display: flex;
-    justify-content: center;
-    }
-    
-    .funcao {
-    justify-content: space-between;
-    }
-    
-    .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
     h2 {
     text-align: center;
     }
@@ -415,68 +354,7 @@
     h6 {
     color: #8829a3;
     }
-    
-    /* Integrantes */
-    
-    .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    }
-    
-    .justificado {
-      display: block;
-      scale: 0.8;
-    }
-    
-    .justificado li {
-    list-style-type: none;
-    }
-    
-    .funcao {
-    display: flex;
-    justify-content: center;
-    }
-    
-    .funcao {
-    justify-content: space-between;
-    }
-    
-    .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
+
     h2 {
     text-align: center;
     }
@@ -788,66 +666,6 @@
     
     h6 {
     color: #8829a3;
-    }
-    
-    /* Integrantes */
-    
-    .integrantes {
-    background-color: rgb(23, 23, 23);
-    padding-top: 50px;
-    margin-top: 100px;
-    padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    }
-    
-    .justificado {
-    display: block;
-    }
-    
-    .justificado li {
-    list-style-type: none;
-    }
-    
-    .funcao {
-    display: flex;
-    justify-content: center;
-    }
-    
-    .funcao {
-    justify-content: space-between;
-    }
-    
-    .programadores {
-    padding-right: 20px;
-    border-left: rgb(71, 71, 71) solid 3px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .merito {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .organizacao {
-    padding-right: 20px;
-    padding-left: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Tec {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
-    }
-    
-    .Ment {
-    padding-left: 20px;
-    padding-right: 20px;
-    border-right: rgb(71, 71, 71) solid 3px;
     }
     
     h2 {
