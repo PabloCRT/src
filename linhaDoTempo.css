@@ -1,69 +1,44 @@
-function trocar1(){
+@keyframes cores {
+    25%{
+        background-color: #8829a3;
+    }
 
-    document.getElementById("primeiro").style.backgroundColor="#8929a3b4"
-    document.getElementById("segundo").style.backgroundColor="white"
-    document.getElementById("terceiro").style.backgroundColor="white"
-    document.getElementById("quarto").style.backgroundColor="white"
-    document.getElementById("texto").textContent="Melhor Organização & Método"
+    50%{
+        background-color: #a94bc4;
+    }
 
-    document.getElementById("primeiro").style.transition=".5s"
+    75%{
+        background-color: #8829a3;
+    }
 
-    const imagem = document.getElementById('imagem');
+    100%{
+        background-color: #a94bc4;
+    }
+}
 
-        imagem.src = 'assets/premio.jpg';
+.bolhas{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
 
 }
 
-
-
-function trocar2(){
-
-    document.getElementById("primeiro").style.backgroundColor="white"
-    document.getElementById("segundo").style.backgroundColor="#8929a3b4"
-    document.getElementById("terceiro").style.backgroundColor="white"
-    document.getElementById("quarto").style.backgroundColor="white"
-    document.getElementById("texto").textContent="Classificação regional"
-
-    document.getElementById("segundo").style.transition=".5s"
-
-    const imagem = document.getElementById('imagem');
-
-        imagem.src = 'assets/interno.jpg';
-
+.linhaDoTempo section:nth-child(1){
+    height: 0.2vh;
+    width: 95%;
+    background-color: #8829a3;
+    margin-left: 2.5%;
+    animation: cores 2s linear infinite;
 }
 
-
-
-function trocar3(){
-
-    document.getElementById("primeiro").style.backgroundColor="white"
-    document.getElementById("segundo").style.backgroundColor="white"
-    document.getElementById("terceiro").style.backgroundColor="#8929a3b4"
-    document.getElementById("quarto").style.backgroundColor="white"
-    document.getElementById("texto").textContent="3° lugar geral"
-
-    document.getElementById("terceiro").style.transition=".5s"
-
-    const imagem = document.getElementById('imagem');
-
-        imagem.src = 'assets/palco.JPG';
-
-}
-
-
-
-function trocar4(){
-
-    document.getElementById("primeiro").style.backgroundColor="white"
-    document.getElementById("segundo").style.backgroundColor="white"
-    document.getElementById("terceiro").style.backgroundColor="white"
-    document.getElementById("quarto").style.backgroundColor="#8929a3b4"
-    document.getElementById("texto").textContent="Classificação para o nacional"
-
-    document.getElementById("quarto").style.transition=".5s"
-
-    const imagem = document.getElementById('imagem');
-
-        imagem.src = 'assets/3lugarGeral.jpg';
-
+.linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
+    padding: .5%;
+    
+    background-color: white;
+    border: #8829a3 solid 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 12%;
+    margin-right: 12%;
 }
