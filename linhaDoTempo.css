@@ -1,44 +1,107 @@
-@keyframes cores {
-    25%{
-        background-color: #8829a3;
-    }
-
-    50%{
-        background-color: #a94bc4;
-    }
-
-    75%{
-        background-color: #8829a3;
-    }
-
-    100%{
-        background-color: #a94bc4;
-    }
-}
-
-.bolhas{
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-
-}
-
-.linhaDoTempo section:nth-child(1){
-    height: 0.2vh;
-    width: 95%;
-    background-color: #8829a3;
-    margin-left: 2.5%;
-    animation: cores 2s linear infinite;
-}
-
-.linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
-    padding: .5%;
+@media screen and (min-width: 360px) {
+    @keyframes cores {
+        25%{
+            background-color: #8829a3;
+        }
     
-    background-color: white;
-    border: #8829a3 solid 2px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-left: 12%;
-    margin-right: 12%;
+        50%{
+            background-color: #a94bc4;
+        }
+    
+        75%{
+            background-color: #8829a3;
+        }
+    
+        100%{
+            background-color: #a94bc4;
+        }
+    }
+    
+    .bolhas{
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .linhaDoTempo section:nth-child(1){
+        height: 0.2vh;
+        width: 95%;
+        background-color: #8829a3;
+        margin-left: 2.5%;
+        animation: cores 2s linear infinite;
+    }
+    
+    .linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
+        padding: 1.5%;
+        
+        background-color: white;
+        border: #8829a3 solid 2px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .linhaDoTempo{
+        & img{
+            height: 20vh;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    @keyframes cores {
+        25%{
+            background-color: #8829a3;
+        }
+    
+        50%{
+            background-color: #a94bc4;
+        }
+    
+        75%{
+            background-color: #8829a3;
+        }
+    
+        100%{
+            background-color: #a94bc4;
+        }
+    }
+    
+    .bolhas{
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .linhaDoTempo section:nth-child(1){
+        height: 0.2vh;
+        width: 95%;
+        background-color: #8829a3;
+        margin-left: 2.5%;
+        animation: cores 2s linear infinite;
+    }
+    
+    .linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
+        padding: .5%;
+        
+        background-color: white;
+        border: #8829a3 solid 2px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+
+    .linhaDoTempo{
+        & img{
+            height: 50vh;
+        }
+    }
+    
 }
