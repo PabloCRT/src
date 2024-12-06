@@ -8,8 +8,10 @@
     <title>ATENA</title>
     <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="linhaDoTempo.css">
     <script src="index.js"></script>
     <script src="pages/nav.js"></script>
+    <script src="linhaDoTempo.js"></script>
 
     <link rel="website icon" type="png" href="assets/logoRoxa.jpg">
   </head>
@@ -120,20 +122,19 @@
             </p>
           </section>
 
-          <section class="texto">
-            <h3><u>Conquistas</u></h3>
-            <br />
-            <p>
-              <ul>
-                <li> Prêmio de melhor organização e método (interno);</li>
-                <br>
-                <li> Classificão para o regional (interno);</li>
-                <br>
-                <li> 3º lugar geral (regional);</li>
-                <br>
-                <li> Classificação para o nacional(regional).</li>
-              </ul>
-            </p>
+          <section class="texto linhaDoTempo" style="text-align: center;">
+
+              <section class="linha"></section>
+
+              <section class="bolhas">
+
+                <button class="linha cor" id="primeiro" style="background-color: #8929a3b4;" onclick="trocar1()"></button>
+                <button class="linha cor" id="segundo" onclick="trocar2()"></button>
+                <button class="linha cor" id="terceiro" onclick="trocar3()"></button>
+                <button class="linha cor" id="quarto" onclick="trocar4()"></button>
+              </section>
+
+              <img src="assets/premio.jpg" id="imagem">
           </section>
 
           <section class="texto5">
