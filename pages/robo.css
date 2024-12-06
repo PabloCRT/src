@@ -154,8 +154,6 @@
     display: flex;
     justify-content: center;
     padding-bottom: 0;
-    margin-top: 5%;
-    height: 10%;
     background: linear-gradient(to top, #8929a3b4, rgba(0, 0, 0, 0));
   }
   
