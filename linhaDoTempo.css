@@ -1,107 +1,174 @@
 @media screen and (min-width: 360px) {
-    @keyframes cores {
-        25%{
-            background-color: #8829a3;
-        }
-    
-        50%{
-            background-color: #a94bc4;
-        }
-    
-        75%{
-            background-color: #8829a3;
-        }
-    
-        100%{
-            background-color: #a94bc4;
-        }
+/*------------------------------------ Parte de estilização da linha do tempo (INÍCIO) ------------------------------------*/
+.textoEspecial{
+    background-color: rgb(15, 15, 15);
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    padding: 5% 0 5% 0;
+    margin-top: 10%;
+}
+
+.imagensEsquerda{
+    text-align: center;
+    margin-right: 5%;
+
+    & .img2{
+        margin-top: 120%;
     }
-    
-    .bolhas{
-        width: 100%;
-    
-        display: flex;
-        align-items: center;
-    
-    }
-    
-    .linhaDoTempo section:nth-child(1){
-        height: 0.2vh;
-        width: 95%;
-        background-color: #8829a3;
-        margin-left: 2.5%;
-        animation: cores 2s linear infinite;
-    }
-    
-    .linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
-        padding: 1.5%;
-        
-        background-color: white;
-        border: #8829a3 solid 2px;
-        border-radius: 50%;
-        cursor: pointer;
-        margin-left: 6%;
-        margin-right: 6%;
+}
+
+.imagensDireita{
+    text-align: center;
+    margin-left: 5%;
+
+    & .img3{
+        margin-top: 70%;
     }
 
-    .linhaDoTempo{
-        & img{
-            height: 20vh;
-        }
+    & .img4{
+        margin-top: 100%;
     }
-    
+}
+
+.image{
+    height: 25vh;
+    border-radius: 25px;
+}
+/*------------------------------------ Parte de estilização da linha do tempo (FIM) ------------------------------------*/
+
+
+
+/*------------------------------------ Parte do efeito scroll (INÍCIO) ------------------------------------*/
+.img1, .img3{
+    animation: scrollEsquerda 1.5s ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+
+.img2, .img4{
+    animation: scrollDireita 1s ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 40%;
+}
+
+@keyframes scrollDireita {
+    from{
+        opacity: 0;
+        translate: 100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes scrollEsquerda {
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}    
+/*------------------------------------ Parte do efeito scroll (FIM) ------------------------------------*/
 }
 
 @media screen and (min-width: 1200px) {
-    @keyframes cores {
-        25%{
-            background-color: #8829a3;
-        }
-    
-        50%{
-            background-color: #a94bc4;
-        }
-    
-        75%{
-            background-color: #8829a3;
-        }
-    
-        100%{
-            background-color: #a94bc4;
-        }
+/*------------------------------------ Parte de estilização da linha do tempo (INÍCIO) ------------------------------------*/
+.textoEspecial{
+    background-color: rgb(15, 15, 15);
+    max-width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    padding: 5% 0 5% 0;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagensEsquerda{
+    text-align: center;
+    margin-right: 5%;
+
+    & .img2{
+        margin-top: 120%;
     }
-    
-    .bolhas{
-        width: 100%;
-    
-        display: flex;
-        align-items: center;
-    
-    }
-    
-    .linhaDoTempo section:nth-child(1){
-        height: 0.2vh;
-        width: 95%;
-        background-color: #8829a3;
-        margin-left: 2.5%;
-        animation: cores 2s linear infinite;
-    }
-    
-    .linhaDoTempo .bolhas button:nth-child(1), .linhaDoTempo button:nth-child(2), .linhaDoTempo button:nth-child(3), .linhaDoTempo button:nth-child(4){
-        padding: .5%;
-        
-        background-color: white;
-        border: #8829a3 solid 2px;
-        border-radius: 50%;
-        cursor: pointer;
-        margin-left: 11%;
-        margin-right: 11%;
+}
+
+.imagensDireita{
+    text-align: center;
+    margin-left: 5%;
+
+    & .img3{
+        margin-top: 70%;
     }
 
-    .linhaDoTempo{
-        & img{
-            height: 50vh;
-        }
+    & .img4{
+        margin-top: 100%;
     }
-    
+}
+
+.linha{
+    height: 150vh;
+    width: .2%;
+
+    background-color: #8929a3b4;
+}
+
+
+
+.imagemEsquerda img, .imagemDireita img{
+    margin-top: 10%;
+}
+
+
+
+.image{
+    height: 30vh;
+    border-radius: 25px;
+}
+/*------------------------------------ Parte de estilização da linha do tempo (FIM) ------------------------------------*/
+
+/*------------------------------------ Parte do efeito scroll (INÍCIO) ------------------------------------*/
+.img1, .img2{
+    animation: scrollEsquerda 1.5s ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+.img3, .img4{
+    animation: scrollDireita 1s ease;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes scrollEsquerda {
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes scrollDireita {
+    from{
+        opacity: 0;
+        translate: 100vw 0;
+    }
+
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+/*------------------------------------ Parte do efeito scroll (FIM) ------------------------------------*/
 }
