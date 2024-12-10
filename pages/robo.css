@@ -447,19 +447,22 @@ h1{
   @keyframes botao {
     0%{
       border: solid 2px #8929a338;
+      color: #8929a338;
     }
 
     50%{
       border: solid 2px #8929a380;
+      color: #8929a380;
     }
 
     100%{
       border: solid 2px #8929a3;
+      color: #8929a3;
     }
   }
 
   .texto a button:hover{
-    animation: botao 1s linear forwards;
+    animation: botao .5s linear forwards;
   }
 }
 
