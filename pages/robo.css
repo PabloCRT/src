@@ -105,6 +105,8 @@
   }
 
   /*--------------------------------------------- Textos ---------------------------------------------*/
+
+  /*------------------------ Arquivos (FIM) ------------------------*/
   .container{
     max-width: 100%;
     display: block;
@@ -139,6 +141,10 @@
     height: 30%;
     border-radius: 25px;
   }
+}
+
+#imgSlide{
+  height: 23%;
 }
 
 h1{
@@ -426,6 +432,10 @@ h1{
       scale: 1.2;
       transition: 1s;
     }
+  }
+
+  #imgSlide{
+    height: 50%;
   }
 
   footer img {
